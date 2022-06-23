@@ -1,0 +1,75 @@
+body {
+  font-family: "Roboto", sans-serif;
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+}
+
+main {
+  margin: 30px 8px;
+  padding: 15px;
+  background-color: #886D44;
+  display: block;
+}
+
+#img-div {
+  background: white;
+  padding: 10px;
+  margin: 0;
+}
+
+figure {
+  display: block;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 40px;
+  margin-inline-end: 40px;
+  color: black;
+}
+
+img {
+  max-width: 100%;
+  display: block;
+  height: auto;
+  margin: 0 auto;
+  padding: 30px 0 30px 0;
+}
+
+section {
+  display: block;
+}
+
+
+
+ul {
+  max-width: 550px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+  padding-inline-start: 40px;
+  line-height: 1.6;
+}
+
+blockquote {
+  font-style: italic;
+  max-width: 545px;
+  margin: 0 auto 50px auto;
+  text-align: left;
+}
+
+a {
+  color: #412F14;
+}
+
+:visited {
+  color: #412F14;
+}
+footer {
+  color: black;
+  font-size: 0.7rem;
+  font-style: italic;
+}
+
+#img-src {
+  font-size: 0.7rem;
+  font-style: italic;
+}
