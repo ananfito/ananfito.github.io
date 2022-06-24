@@ -9,8 +9,8 @@ I am currently seeking employment as an entry-level data analyst. Feel free to v
 **Let's Connect:** | [LinkedIn](https://www.linkedin.com/in/anthonynanfito/) | [GitHub](https://github.com/ananfito) | [RPubs](https://rpubs.com/anthonynanfito) | [Tableau](https://public.tableau.com/app/profile/anthony.nanfito)
 
 ### Contents
-- [Analytics Projects](#Analytics_Projects)
-- [Web Design Projects](#Web_Design_Projects)
+- [Analytics Projects](#analytics-projects)
+- [Web Design Projects](#web-design-projects)
 
 # Analytics Projects
 ## [CASE STUDY: How does a bike share navigate speedy success?](https://rpubs.com/anthonynanfito/case_study_cyclistic)
