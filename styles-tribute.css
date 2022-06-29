@@ -63,10 +63,12 @@ a {
 :visited {
   color: #412F14;
 }
+
 footer {
   color: black;
   font-size: 0.7rem;
   font-style: italic;
+  padding: 0.5em 0.5em;
 }
 
 #img-src {
