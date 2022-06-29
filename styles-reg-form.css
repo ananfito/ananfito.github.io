@@ -1,7 +1,6 @@
 div {
   background-image: radial-gradient(circle, #7F429E, #341B41);
   background-size: cover;
-  height: 100vh;
 }
 
 body {
