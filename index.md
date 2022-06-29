@@ -2,7 +2,7 @@
 ## Welcome
 My name is Anthony Nanfito and I am an entry-level analytics professional and front-end web developer. I have an undergraduate degree in mathematics with nearly 10 years of teaching experience at multiple levels in the U.S., Asia, and online. I am a versatile individual with experience collecting, transforming, and organizing data for analysis to help make informed decisions.
 
-### Skils
+### Skills
 - Programming languages: SQL, Tableau, R, Python, HTML, CSS
 - Excellent verbal and written communication skills
 - Completed [Google Data Analytics Certificate](https://www.credly.com/badges/dafff9fa-de9f-497f-bd7f-d98c46a24e73/public_url)
@@ -11,7 +11,7 @@ I am currently seeking employment as an entry-level data analyst. Feel free to v
 
 **Let's Connect:** | [LinkedIn](https://www.linkedin.com/in/anthonynanfito/) | [GitHub](https://github.com/ananfito) | [RPubs](https://rpubs.com/anthonynanfito) | [Tableau](https://public.tableau.com/app/profile/anthony.nanfito)
 
-### Contents
+## Contents
 - [Analytics Projects](#analytics-projects)
 - [Web Design Projects](#web-design-projects)
 
@@ -34,9 +34,12 @@ To read the full analysis with code and visualizations, [click here](https://rpu
 
 # Web Design projects
 The following pages are examples of my work using HTML and CSS to create responsive webpages. These were completed as part of freeCodeCamp.org's [Responsive Web Design course](https://www.freecodecamp.org/learn/2022/responsive-web-design/). My course certification can be seen [here](https://www.freecodecamp.org/ananfito).
+
 ## Tribute Page
 A simple page making use of HTML/CSS design elements to pay tribute to humanity's greatest invention: [the toilet](https://ananfito.github.io/tribute-page).
+
 ## Survey Form
 This webpage functions as a survey form for a podcast collecting information from their listeners. Please note, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/survey)
+
 ## Registration Form
 Similar to the survey form above, this webpage is designed to collect user information in order to create an account. Please now, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/reg-form)
