@@ -3,9 +3,10 @@ div {
   background-size: cover;
   height: auto
 }
+
 body {
   width: 100%;
-  height: 100vh;
+  height: 100%;
   margin: 0;
 	color: #f5f6f7;
   font-family: Tahoma;
@@ -82,7 +83,6 @@ a {
   color: #dfdfe2
 }
 
-
 footer {
   color: white;
   background-color: #170321;
@@ -91,3 +91,5 @@ footer {
   font-style: italic;
   padding: 0.5em 0.5em;
 }
+
+@media screen and (max-width: 600px) {}
