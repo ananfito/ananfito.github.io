@@ -1,5 +1,5 @@
 div {
-  background-image: radial-gradient(circle, #7F429E, #341B41)/* #3D1F4C /* #1b1b32 */;
+  background-image: radial-gradient(circle, #7F429E, #341B41);
   background-size: cover;
 }
 
@@ -35,7 +35,7 @@ fieldset {
 }
 
 fieldset:not(:last-of-type) {
-  border-bottom: 3px solid #7F429E/* #3b3b4f */;
+  border-bottom: 3px solid #170321;
 }
 
 label {
@@ -52,8 +52,8 @@ select {
 }
 
 input, textarea {
-  background-color: #170321/* #0a0a23 */;
-  border: 1px solid #B2B2B2/* #0a0a23 */;
+  background-color: #170321;
+  border: 1px solid #B2B2B2;
   color: #ffffff;
 }
 
