@@ -39,7 +39,7 @@ The following pages are examples of my work using HTML and CSS to create respons
 A simple page making use of HTML/CSS design elements to pay tribute to humanity's greatest invention: [the toilet](https://ananfito.github.io/tribute-page).
 
 ## Survey Form
-This webpage functions as a survey form for a podcast collecting information from their listeners. Please note, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/survey)
+This webpage functions as a survey form for a podcast collecting information from their listeners. Please note, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/survey).
 
 ## Registration Form
-Similar to the survey form above, this webpage is designed to collect user information in order to create an account. Please now, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/reg-form)
+Similar to the survey form above, this webpage is designed to collect user information in order to create an account. Please now, it is not currently setup to accept information and is for demonstration purposes only. You can view it [here](https://ananfito.github.io/reg-form).
