@@ -64,6 +64,7 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
+  color: var(--main-green);
 }
 
 h1 {
@@ -72,6 +73,10 @@ h1 {
 
 h2 {
   font-size: 4.2rem;
+}
+
+h3 {
+  color: var(--main-green);
 }
 
 ul {
