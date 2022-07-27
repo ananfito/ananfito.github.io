@@ -53,7 +53,7 @@ html {
 /* Base Styles */
 
 body {
-  font-family: "Open Sans", "Helvetica Neue", Arial, sans-serif;
+  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 18px;
   line-height: 1.5;
   color: var(--main-gray);
@@ -380,7 +380,7 @@ img {
 footer {
   font-weight: 300;
   display: flex;
-  justify-content: space-evenly; 
+  justify-content: space-evenly;
   padding: 2rem;
   background: var(--main-gray);
   border-top: 4px solid var(--main-green);
