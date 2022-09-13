@@ -126,6 +126,7 @@ img {
 .nav-list a {
   display: block;
   font-size: 2.2rem;
+  font-weight: bold;
   padding: 2rem;
 }
 
@@ -378,7 +379,6 @@ img {
 /* Footer */
 
 footer {
-  font-weight: 100;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
