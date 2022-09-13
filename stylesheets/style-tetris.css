@@ -1,0 +1,90 @@
+:root {
+  --main-white: #fff;
+  --main-blue: #155799;
+  --main-green: #ff8c00; //orange now
+  --main-gray: #606c71;
+  --main-turquoise: #40e0d0;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: #eee;
+  font-family: 'Lato', sans-serif;
+  color: var(--main-white);
+  display: block;
+  /*background-color: var(--main-blue);*/
+  background-image: linear-gradient(45deg, var(--main-blue), var(--main-turquoise));
+  background-origin: border-box;
+  background-repeat: no-repeat;
+  height: 100vh;
+  overflow: hidden;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+  margin: 5vh 25vw 5vh 25vw;
+}
+
+.header {
+  display: block;
+  margin: 10vh 25vw 5vh 25vw;
+  text-align: left;
+}
+
+.header #welcome {
+  text-align: center;
+}
+
+#score-board {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#start-button {
+  margin-left: 50px;
+}
+
+.grid {
+  width: 200px;
+  height: 400px;
+  background-color: #f6eabe; /* lemon meringue https://html-color.codes/gold */
+  background-image: radial-gradient(circle at center, #faf0e6, #f6eabe);
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.grid div {
+  height: 20px;
+  width: 20px;
+}
+
+.tetromino {
+  outline: 0.5px solid black;
+}
+
+.mini-grid {
+  margin-left: 50px;
+  width: 80px;
+  height: 80px;
+  display: flex;
+  flex-wrap: wrap;
+  background-color: #f6eabe; /* lemon meringue https://html-color.codes/gold */
+
+}
+
+.mini-grid div {
+  height: 20px;
+  width: 20px;
+}
+
+footer {
+  display: block;
+  text-align: center;
+  margin: 0 25vw 10vh 25vw;
+}

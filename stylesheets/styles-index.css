@@ -5,6 +5,7 @@
   --main-gray: #606c71;
 }
 
+
 /* Base reset */
 * {
   margin: 0;
@@ -50,8 +51,8 @@ html {
   }
 }
 
-/* Base Styles */
 
+/* Base Styles */
 body {
   font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
@@ -95,7 +96,6 @@ img {
 
 
 /* Navbar */
-
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -134,8 +134,8 @@ img {
   background: var(--main-white);
 }
 
-/* Welcome section */
 
+/* Welcome section */
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -159,8 +159,8 @@ img {
   opacity: 0.7;
 }
 
-/* About section */
 
+/* About section */
 .about-section {
   display: block;
   margin: 5rem 12.5rem 10rem 12.5rem;
@@ -237,8 +237,6 @@ img {
 
 
 /* Projects section */
-
-
 .projects-section {
   text-align: center;
   margin-bottom: 5rem;
@@ -316,7 +314,6 @@ img {
 
 
 /* Contact section */
-
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -367,17 +364,9 @@ img {
 .contact-details:hover {
   transform: translateY(8px);
 }
-/*
-.fa-brands {
-  width: inherit;
-  height: inherit;
-}
-*/
-
 
 
 /* Footer */
-
 footer {
   display: flex;
   justify-content: space-evenly;
