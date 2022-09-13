@@ -1,7 +1,7 @@
 :root {
   --main-white: #fff;
-  --main-blue: #155799;
-  --main-green: #159957;
+  --main-blue: #4276b6 /*#40a5d3*/; /* changed to light blue / turquoise color */
+  --main-green: #ffcc00/*#f4cd54*/; /* changed to bronze-orange color */
   --main-gray: #606c71;
 }
 
@@ -54,7 +54,7 @@ html {
 
 body {
   font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  font-size: 18px;
+  font-size: 2rem;
   line-height: 1.5;
   color: var(--main-gray);
 }
@@ -64,7 +64,7 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
-  color: var(--main-green);
+  color: var(--main-blue);
 }
 
 h1 {
@@ -76,7 +76,7 @@ h2 {
 }
 
 h3 {
-  color: var(--main-green);
+  color: var(--main-blue);
 }
 
 ul {
@@ -152,7 +152,7 @@ img {
 
 .welcome-section > p {
   font-size: 3rem;
-  font-weight: 200;
+  font-weight: bold;
   font-style: italic;
   color: var(--main-white);
   opacity: 0.7;
@@ -328,11 +328,11 @@ img {
   background: var(--main-gray);
   color: var(--main-white);
 }
-/*
-.contact-section-header > h2 {
-  font-size: 6rem;
+
+#contact-section-header {
+  /* font-size: 6rem; */
+  color: var(--main-green);
 }
-*/
 
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
@@ -378,7 +378,7 @@ img {
 /* Footer */
 
 footer {
-  font-weight: 300;
+  font-weight: 100;
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
