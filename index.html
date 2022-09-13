@@ -3,8 +3,8 @@
   <head>
     <meta charset="UTF-8" />
     <title>Anthony Nanfito's Portfolio</title>
-    <link rel="stylesheet" href="styles-index.css" />
-    <link rel="icon" href="ProfilePic_Square.jpg" />
+    <link rel="stylesheet" href="./stylesheets/styles-index.css" />
+    <link rel="icon" href="./media/ProfilePic_Square.jpg" />
     <script src="https://use.fontawesome.com/21a3894a6b.js"></script>
   </head>
   <body>
@@ -13,13 +13,13 @@
     <nav id="navbar" class="nav">
       <ul class="nav-list">
         <li>
-          <a href="#about">About</a>
+          <a href="#about" id="about-link">About</a>
         </li>
         <li>
-          <a href="#projects">Work</a>
+          <a href="#projects" id="work-link">Work</a>
         </li>
         <li>
-          <a href="#contact">Contact</a>
+          <a href="#contact" id="contact-link">Contact</a>
         </li>
       </ul>
     </nav>
@@ -27,7 +27,7 @@
     <!-- Welcome Section -->
     <section id="welcome-section" class="welcome-section">
       <h1>Hi! I'm Anthony</h1>
-      <p>a data analyst and web developer</p>
+      <p>a data analyst and front-end web developer</p>
     </section>
 
     <!-- About Section -->
@@ -36,7 +36,7 @@
       <div class="about-info">
         <p>I am an entry-level analytics professional and front-end web developer. I have an undergraduate degree in mathematics with nearly 10 years of teaching experience at multiple levels in the U.S., Asia, and online. I am a versatile individual with experience collecting, transforming, and organizing data for analysis to help make informed decisions.</p>
       </div>
-      <div class="skills-list">
+      <div class="skills-list" id="skills-list">
         <h3>Skills</h3>
         <ul>
           <li>Programming languages: spreadsheets, SQL, Tableau, R, Python, HTML, CSS</li>
@@ -45,13 +45,13 @@
         </ul>
       </div>
         <h3>Certifications</h3>
-      <div class="certificate-grid">
-        <a class="certificate certificate-tile" href="https://www.credly.com/badges/dafff9fa-de9f-497f-bd7f-d98c46a24e73/public_url" target="_blank">
-          <img class="certificate-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/google-data-analytics-certificate.2.png">
+      <div class="certificate-grid" id="certificate-grid">
+        <a class="certificate certificate-tile" id="analytics-certificate" href="https://www.credly.com/badges/dafff9fa-de9f-497f-bd7f-d98c46a24e73/public_url" target="_blank">
+          <img class="certificate-image" src="./media/google-data-analytics-certificate.2.png" alt="Google Data Analytics Certificate: Certificate of Completion">
           <p class="certificate-title">Data Analytics Certificate</p>
         </a>
-        <a class="certificate certificate-tile" href="https://www.freecodecamp.org/certification/ananfito/responsive-web-design" target="_blank">
-          <img class="certificate-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/freeCodeCamp_responsiveWebDesign_certificate.png">
+        <a class="certificate certificate-tile" id="web-design-certificate" href="https://www.freecodecamp.org/certification/ananfito/responsive-web-design" target="_blank">
+          <img class="certificate-image" src="./media/freeCodeCamp_responsiveWebDesign_certificate.png" alt="freeCodeCamp Responsive Web Design Certificate">
           <p class="certificate-title">Responsive Web Design</p>
         </a>
       </div>
@@ -60,34 +60,34 @@
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
       <h2 class="projects-section-header">My Projects</h2>
-      <div class="projects-grid">
-        <a class="project project-tile" href="https://rpubs.com/anthonynanfito/case_study_cyclistic" target="_blank">
-          <img class="project-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/case-study_cyclista_screenshot.png">
+      <div class="projects-grid" id="projects-grid">
+        <a class="project project-tile" id="case-study-link" href="https://rpubs.com/anthonynanfito/case_study_cyclistic" target="_blank">
+          <img class="project-image" src="./media/case-study_cyclista_screenshot.png" alt="Screen capture of 'CASE STUDY: How does a bike share navigate speedy success?'">
           <p class="project-title">Analytics Case Study</p>
         </a>
-        <a class="project project-tile" href="https://ananfito.github.io/tribute-page" target="_blank">
-          <img class="project-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/screenshot_tribute-page.png">
+        <a class="project project-tile" id="tribute-page-link" href="https://ananfito.github.io/tribute-page" target="_blank">
+          <img class="project-image" src="./media/screenshot_tribute-page.png" alt="Screen capture of tribute page for the seat of civilization: the toilet">
           <p class="project-title">Tribute Page</p>
         </a>
-        <a class="project project-tile" href="https://ananfito.github.io/survey" target="_blank">
-          <img class="project-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/screenshot_survey-form.png">
+        <a class="project project-tile" id="survey-form-link" href="https://ananfito.github.io/survey" target="_blank">
+          <img class="project-image" src="./media/screenshot_survey-form.png" alt="Screen capture of survey form for a podcast">
           <p class="project-title">Survey Form</p>
         </a>
-        <a class="project project-tile" href="https://ananfito.github.io/reg-form" target="_blank">
-          <img class="project-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/screenshot_reg-form.png">
+        <a class="project project-tile" id="registation-form-link" href="https://ananfito.github.io/reg-form" target="_blank">
+          <img class="project-image" src="./media/screenshot_reg-form.png" alt="Screen capture of a basic user registation form for a website">
           <p class="project-title">Registration Form</p>
         </a>
-        <a class="project project-tile" href="https://ananfito.github.io/2149-book" target="_blank">
-          <img class="project-image" src="https://raw.githubusercontent.com/ananfito/ananfito.github.io/main/screenshot_landing-page.png">
+        <a class="project project-tile" id="landing-page-link" href="https://ananfito.github.io/2149-book" target="_blank">
+          <img class="project-image" src="./media/screenshot_landing-page.png" alt="screen capture of the landing page for the book '2149: Emergence' by Anthony Nanfito">
           <p class="project-title">Landing Page</p>
         </a>
       </div>
       <div class="more-examples">
         <h4>More examples:</h4>
-        <a class="btn" href="https://rpubs.com/anthonynanfito" target="_blank">
+        <a class="btn" id="rpubs-profile-link" href="https://rpubs.com/anthonynanfito" target="_blank">
         RPubs
         </a>
-        <a class="btn" href="https://public.tableau.com/app/profile/anthony.nanfito" target="_blank">
+        <a class="btn" id="tableau-profile-link" href="https://public.tableau.com/app/profile/anthony.nanfito" target="_blank">
         Tableau
         </a>
       </div>
@@ -100,15 +100,15 @@
         <p>Send me a message today</p>
       </div>
       <div class="contact-links">
-        <a class="btn contact-details" href="https://linkedin.com/in/anthonynanfito" target="_blank">
+        <a id="linkedin-profile-link" class="btn contact-details" href="https://linkedin.com/in/anthonynanfito" target="_blank">
           <!-- <i class="fa-brands fa-linkedin"></i> -->
           LinkedIn
         </a>
-        <a id="profile-link" class="btn contact-details" href="https://github.com/ananfito" target="_blank">
+        <a id="github-link" class="btn contact-details" href="https://github.com/ananfito" target="_blank">
           <!-- <i class="fa-brands fa-github"></i> -->
           GitHub
         </a>
-        <a id="profile-link" class="btn contact-details" href="https://twitter.com/wordsbyfifi" target="_blank">
+        <a id="twitter-profile-link" class="btn contact-details" href="https://twitter.com/wordsbyfifi" target="_blank">
           <!-- <i class="fa-brands fa-twitter"></i> -->
           Twitter
         </a>
