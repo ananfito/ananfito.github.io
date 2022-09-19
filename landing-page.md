@@ -11,4 +11,4 @@ This is a sample landing page I created as part of the [Responsive Web Design co
 
 # Status
 
-This page is a complete, but I continue to make periodic updates to it as I learn and improving my skills. A live version of this landing page can be viewed at https://ananfito.github.io/2149-book.
+This page is a complete, but I continue to make periodic updates to it as I learn more about web development and improve my skills. A live version of this landing page can be viewed at https://ananfito.github.io/2149-book.
