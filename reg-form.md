@@ -3,6 +3,7 @@
 - [About](#about)
 - [Files](#files)
 - [Status](#status)
+- [Connect](#connect)
 
 ![screenshot of my sample registration form](./media/screenshot_reg-form.png)
 
@@ -18,3 +19,10 @@ This is a sample registration form I created as part of the [Responsive Web Desi
 # Status
 
 This page is a complete, but I continue to make periodic updates to it as I learn more about web development and improve my skills. A live version of this landing page can be viewed at https://ananfito.github.io/reg-form.
+
+# Connect
+
+- [Twitter](https://twitter.com/wordsbyfifi)
+- [LinkedIn](https://linkedin.com/in/anthonynanfito)
+- [Portfolio](https://ananfito.github.io)
+- [Blog](https://ananfito.hashnode.dev)
