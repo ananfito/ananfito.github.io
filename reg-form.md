@@ -1,6 +1,7 @@
 # Contents
 
 - [About](#about)
+- [Files](#files)
 - [Status](#status)
 
 ![screenshot of my sample registration form](./media/screenshot_reg-form.png)
@@ -8,6 +9,11 @@
 # About
 
 This is a sample registration form I created as part of the [Responsive Web Design course created by freeCodeCamp](https://www.freecodecamp.org/learn/2022/responsive-web-design/). This page is one of the required projects to earn a certification for the course. The [developer certificate](https://www.freecodecamp.org/certification/ananfito/responsive-web-design) I earned as part of completing the course represents approximately 300 hours of coursework.
+
+## Files
+
+HTML: https://github.com/ananfito/ananfito.github.io/blob/main/reg-form.html
+CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-reg-form.css
 
 # Status
 
