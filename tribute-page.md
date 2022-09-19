@@ -12,8 +12,8 @@ This is a sample tribute page I created as part of the [Responsive Web Design co
 
 # Files
 
-HTML: https://github.com/ananfito/ananfito.github.io/blob/main/tribute-page.html
-CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-tribute.css
+- HTML: https://github.com/ananfito/ananfito.github.io/blob/main/tribute-page.html
+- CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-tribute.css
 
 # Status
 

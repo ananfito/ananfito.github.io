@@ -12,8 +12,8 @@ This is a sample survey form I created as part of the [Responsive Web Design cou
 
 ## Files
 
-HTML: https://github.com/ananfito/ananfito.github.io/blob/main/survey.html
-CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-survey.css
+- HTML: https://github.com/ananfito/ananfito.github.io/blob/main/survey.html
+- CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-survey.css
 
 # Status
 

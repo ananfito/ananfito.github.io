@@ -12,8 +12,8 @@ This is a sample registration form I created as part of the [Responsive Web Desi
 
 ## Files
 
-HTML: https://github.com/ananfito/ananfito.github.io/blob/main/reg-form.html
-CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-reg-form.css
+- HTML: https://github.com/ananfito/ananfito.github.io/blob/main/reg-form.html
+- CSS: https://github.com/ananfito/ananfito.github.io/blob/main/styles/styles-reg-form.css
 
 # Status
 
