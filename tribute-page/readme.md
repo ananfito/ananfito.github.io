@@ -3,7 +3,7 @@
 - [About](#about)
 - [Status](#status)
 
-![screenshot of my sample tribute page to civilization's greatest invention: the toilet](./media/screenshot_tribute-page.png)
+![screenshot of my sample tribute page to civilization's greatest invention: the toilet](./screenshot_tribute-page.png)
 
 # About
 

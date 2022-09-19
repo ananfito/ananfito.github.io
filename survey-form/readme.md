@@ -3,7 +3,7 @@
 - [About](#about)
 - [Status](#status)
 
-![screenshot of my sample survey form](./media/screenshot_survey-form.png)
+![screenshot of my sample survey form](./screenshot_survey-form.png)
 
 # About
 
