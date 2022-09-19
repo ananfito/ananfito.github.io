@@ -3,7 +3,7 @@
 - [About](#about)
 - [Status](#status)
 
-![screenshot of my sample registration form](./screenshot_reg-form.png)
+![screenshot of my sample registration form](./media/screenshot_reg-form.png)
 
 # About
 
