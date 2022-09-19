@@ -1,18 +1,28 @@
+/* Baseline Reset */
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+
+/* Body */
+
 body {
   background-color: #eee;
+  font-size: 1.05rem;
   font-family: 'Lato', sans-serif;
   display: block;
+
 }
 
 #page-wrapper {
   position: relative;
 }
+
+
+/* Header */
 
 header {
   position: fixed;
@@ -63,6 +73,9 @@ p {
   margin-left: 20px;
 }
 
+
+/* Navbar */
+
 nav {
   font-weight: 400;
 }
@@ -76,6 +89,7 @@ nav > ul {
 
 li {
   list-style: none;
+  margin: 0 2px 0 2px;
 }
 
 a {
@@ -86,6 +100,9 @@ a {
 a:hover {
   color: #696969;
 }
+
+
+/* Hero */
 
 #hero {
   display: flex;
@@ -98,7 +115,7 @@ a:hover {
   margin-bottom: 350px;
 }
 
-#hero > h2 {
+#hero > h2, h5 {
   margin-bottom: 20px;
   word-wrap: break-word;
 }
@@ -119,6 +136,9 @@ section {
   display: block;
 }
 
+
+/* Product Description */
+
 .product-description {
   display: block;
   justify-content: left;
@@ -133,6 +153,8 @@ section {
 #synopsis {
   margin-top: 30px;
 }
+
+/* Trailer Video */
 
 #trailer {
   margin-top: 50px;
@@ -153,6 +175,9 @@ section {
   margin: 0 auto;
 }
 
+
+/* Where to Buy */
+
 #where-to-buy {
     display: block;
     flex-direction: row;
@@ -170,9 +195,12 @@ section {
 
 button {
   margin-bottom: 10px;
-  font-size: 16px;
+  font-size: 1rem;
   padding: 5px;
 }
+
+
+/* Footer */
 
 footer {
   color: white;
@@ -191,4 +219,12 @@ footer > p {
   color: #a0a0a9;
 }
 
-@media only screen and (max-width: 600px) {}
+@media screen and (max-width:645px) {
+  body {
+    font-size: 1.25rem;
+  }
+
+  button {
+    font-size: 1.25rem;
+  }
+}
