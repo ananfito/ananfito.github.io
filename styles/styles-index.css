@@ -7,6 +7,7 @@
 
 
 /* Base reset */
+
 * {
   margin: 0;
   padding: 0;
@@ -53,6 +54,7 @@ html {
 
 
 /* Base Styles */
+
 body {
   font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
@@ -96,6 +98,7 @@ img {
 
 
 /* Navbar */
+
 .nav {
   display: flex;
   justify-content: flex-end;
@@ -136,6 +139,7 @@ img {
 
 
 /* Welcome section */
+
 .welcome-section {
   display: flex;
   flex-direction: column;
@@ -161,6 +165,7 @@ img {
 
 
 /* About section */
+
 .about-section {
   display: block;
   margin: 5rem 12.5rem 10rem 12.5rem;
@@ -212,6 +217,7 @@ img {
 
   .certificate-grid {
     grid-template-columns: 1fr;
+
   }
 }
 
@@ -221,7 +227,8 @@ img {
 }
 
 .certificate-grid > a:hover {
-  background: var(--main-gray);
+  background: var(--main-yellow);
+  color: var(--main-blue);
 }
 
 .certificate-image {
@@ -233,10 +240,12 @@ img {
 .certificate-title {
   font-size: 2rem;
   padding: 2rem 0.5rem;
+  text-align: center;
 }
 
 
 /* Projects section */
+
 .projects-section {
   text-align: center;
   margin-bottom: 5rem;
@@ -255,7 +264,7 @@ img {
   }
 }
 
-/* "Automagic" image grid using no media queries */
+/* "automagic" image grid using no media queries */
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -288,7 +297,8 @@ img {
 }
 
 .projects-grid > a:hover {
-  background: var(--main-gray);
+  background: var(--main-yellow);
+  color: var(--main-blue);
 }
 
 .project-image {
@@ -312,8 +322,13 @@ img {
   color: var(--main-gray);
 }
 
+.more-examples > a:hover {
+  color: var(--main-blue);
+}
+
 
 /* Contact section */
+
 .contact-section {
   display: flex;
   flex-direction: column;
@@ -323,23 +338,24 @@ img {
   width: 100%;
   height: 100vh;
   padding: 0 2rem;
-  background: var(--main-gray);
+  background: var(--main-blue);
   color: var(--main-white);
 }
 
+.contact-section p {
+  color: var(--main-white);
+  font-style: italic;
+
+}
+
 #contact-section-header {
-  /* font-size: 6rem; */
-  color: var(--main-yellow);
+  color: var(--main-white);
 }
 
 @media (max-width: 28.75em) {
   .contact-section-header > h2 {
     font-size: 4rem;
   }
-}
-
-.contact-section-header > p {
-  font-style: italic;
 }
 
 .contact-links {
@@ -363,17 +379,19 @@ img {
 
 .contact-details:hover {
   transform: translateY(8px);
+  color: var(--main-yellow);
 }
 
 
 /* Footer */
+
 footer {
   display: flex;
   justify-content: space-evenly;
   padding: 2rem;
-  background: var(--main-gray);
+  background: var(--main-white);
   border-top: 4px solid var(--main-yellow);
-  color: var(--main-white);
+  color: var(--main-blue);
 }
 
 footer > p {
