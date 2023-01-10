@@ -170,10 +170,11 @@ img {
 
 .about-section {
   display: block;
-  margin: 5rem 12.5rem 10rem 12.5rem;
+  margin: 5rem auto 10rem auto;
   padding: 1rem 0.5rem 1rem 0.5rem;
   line-height: 1.6;
   justify-content: evenly-space;
+  max-width: 1280px;
 
 }
 
@@ -181,6 +182,12 @@ img {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-gray);
+}
+
+.about-info {
+  max-width: 1080px;
+  margin: 0 auto;
+
 }
 
 .skills-list {
@@ -200,6 +207,10 @@ img {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
 
+}
+
+.certficate-header {
+  text-align: center;
 }
 
 .certificate-grid {
