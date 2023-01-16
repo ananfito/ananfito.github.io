@@ -84,6 +84,10 @@ h3 {
   color: var(--main-blue);
 }
 
+p {
+  margin: 1em auto;
+}
+
 ul {
   list-style: none;
 }
