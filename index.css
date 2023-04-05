@@ -207,7 +207,6 @@ img {
   background: var(--main-blue);
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   border-radius: 2px;
-
 }
 
 .certficate-header {
@@ -230,13 +229,11 @@ img {
 
   .certificate-grid {
     grid-template-columns: 1fr;
-
   }
 }
 
 .certificate-grid > a {
   color: var(--main-yellow);
-
 }
 
 .certificate-grid > a:hover {
@@ -245,7 +242,8 @@ img {
 }
 
 .certificate-image {
-  height: calc(100% - 6.8rem);
+  height: 15em;
+  /* height: calc(100% - 6.8rem); */
   width: 100%;
   object-fit: cover;
 }
@@ -315,9 +313,10 @@ img {
 }
 
 .project-image {
-  height: calc(100% - 6.8rem);
+  height: 15em;
+  /* height: calc(100% - 6.8rem); */
   width: 100%;
-  object-fit: cover;
+  object-fit:cover;
 }
 
 .project-title {
