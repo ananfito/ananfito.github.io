@@ -1,18 +1,24 @@
 <!DOCTYPE html>
 <html lang="en">
+
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Anthony Nanfito's Portfolio</title>
-    <link rel="stylesheet" href="./styles/styles-index.css" />
     <link rel="icon" href="./media/ProfilePic_Square.jpg" />
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="./index.css" />
+    
+    
     <!-- FontAwesome Link -->
     <script src="https://kit.fontawesome.com/7b924d2756.js" crossorigin="anonymous"></script>
+
   </head>
+
   <body>
 
-
-    <!-- Nav -->
+    <!-- NAVBAR -->
 
     <nav id="navbar" class="nav">
       <ul class="nav-list">
@@ -40,15 +46,15 @@
     </nav>
 
 
-    <!-- Welcome Section -->
+    <!-- WELCOME SECTION -->
 
     <section id="welcome-section" class="welcome-section">
       <h1>Hi! I'm Anthony</h1>
-      <p>front-end web developer</p>
+      <p>a front-end web developer</p>
     </section>
 
 
-    <!-- About Section -->
+    <!-- ABOUT SECTION -->
 
     <section id="about" class="about-section">
       <div class="about-info">
@@ -85,83 +91,23 @@
     </section>
 
 
-    <!-- Projects Section -->
+    <!-- PROJECTS SECTION -->
 
     <section id="projects" class="projects-section">
-      <h2 class="projects-section-header">My Projects</h2>
-      <div class="projects-grid" id="projects-grid">
-
-        <!-- Case Study -->
-        <a class="project project-tile" id="case-study-link" href="https://rpubs.com/anthonynanfito/case_study_cyclistic" target="_blank">
-          <img class="project-image" src="./media/case-study_cyclista_screenshot.png" alt="Screen capture of 'CASE STUDY: How does a bike share navigate speedy success?'">
-          <p class="project-title">Analytics Case Study</p>
-        </a>
-
-        <!-- MathemaQuizzo -->
-        <a class="project project-tile" id="tetris-app-link" href="https://github.com/ananfito/mathemaquizzo" target="_blank">
-          <img class="project-image" src="./media/mathematquizzo.png" alt="webpage with the title 'MathemaQuizzo' and instructions for how to start the quiz game">
-          <p class="project-title">MathemaQuizzo</p>
-        </a>
-
-        <!-- To-Do List -->
-        <a class="project project-tile" id="to-do-list" href="https://github.com/ananfito/to-do-list" target="_blank">
-          <img class="project-image" src="./media/to-do-list-screenshot.png" alt="input textbox centered on a page with a plus sign for adding to the list set with background of a laptop, glasses, and journal">
-          <p class="project-title">To-Do List</p>
-        </a>
-
-        <!-- Tetris App -->
-        <a class="project project-tile" id="tetris-app-link" href="https://github.com/ananfito/basic-tetris" target="_blank">
-          <img class="project-image" src="./media/basic-tetris-app.png" alt="tetris app centered on the page with blocks falling and instructions printed at the top">
-          <p class="project-title">Tetris App</p>
-        </a>
-
-        <!-- Password Generator -->
-        <a class="project project-tile" id="tetris-app-link" href="https://github.com/ananfito/password-generator" target="_blank">
-          <img class="project-image" src="./media/password-generator.png" alt="a random password generator centered on a page with a dark theme and button to generator a 15 character password">
-          <p class="project-title">Password Generator</p>
-        </a>
-
-        <!-- Basketball Scoreboard -->
-        <a class="project project-tile" id="tetris-app-link" href="https://github.com/ananfito/basketball-scoreboard" target="_blank">
-          <img class="project-image" src="./media/basketball-scoreboard.png" alt="basketball scoreboard with home and vistor scores, and buttons for plus 1, plus 2, plus 3, minus 1, and reset">
-          <p class="project-title">Basketball Scoreboard</p>
-        </a>
-
-        <!-- Random Quote Generator -->
-        <a class="project project-tile" id="quote-generator-link" href="https://github.com/ananfito/random-quote-generator" target="_blank">
-          <img class="project-image" src="./media/random-quote-generator.png" alt="a famous quote centered on the page with a generate button to start a new quote">
-          <p class="project-title">Random Quote Generator</p>
-        </a>
-
-        <!-- Stopwatch -->
-        <a class="project project-tile" id="stopwatch-demo-link" href="https://github.com/ananfito/stopwatch" target="_blank">
-          <img class="project-image" src="./media/stopwatch-screenshot.png" alt="digital stopwatch with a start and reset button with a background of an hourglass resting on pebbles">
-          <p class="project-title">Stopwatch</p>
-        </a>
-
-        <!-- Passenger Counter App -->
-        <a class="project project-tile" id="passenger-counter-app" href="https://github.com/ananfito/passenger-counter-app" target="_blank">
-          <img class="project-image" src="./media/px-app.png" alt="passenger counter app with 3 buttons; increment, decrease, and reset">
-          <p class="project-title">Passenger Counter App</p>
-        </a>
-
-        <!-- Survey Form -->
-        <a class="project project-tile" id="survey-form-link" href="https://github.com/ananfito/survey-form" target="_blank">
-          <img class="project-image" src="./media/screenshot_survey-form.png" alt="survey form for a podcast asking for listener feedback on how they like the episodes">
-          <p class="project-title">Survey Form</p>
-        </a>
-
-        <!-- Registration Form -->
-        <a class="project project-tile" id="registation-form-link" href="https://github.com/ananfito/reg-form" target="_blank">
-          <img class="project-image" src="./media/screenshot_reg-form.png" alt="a basic registration form for a website with inputs for name, email, account type, profile image, and bio">
-          <p class="project-title">Registration Form</p>
-        </a>
+      
+      <!-- Projects Grid -->
+      <div class="projects-wrapper">
+        <h2 class="projects-section-header">My Projects</h2>
+        
+        <div class="projects-grid" id="projects-grid"><!-- projects rendered via JS --></div>
+        
+        <button class="btn-view-more" id="btn-view-more">View more</button>
 
       </div>
 
       <!-- More Examples -->
-      <div class="more-examples">
-        <h4>More examples:</h4>
+      <div class="more-examples hidden" id="more-examples">
+        <h4>For more examples visit:</h4>
         <!-- GitHub Profile -->
         <a class="btn" id="github-profile-link" href="https://github.com/ananfito" target="_blank">
           <i class="fa-brands fa-github"></i> GitHub
@@ -177,17 +123,20 @@
         <i class="fa-solid fa-chart-pie"></i> Tableau
         </a>
       </div>
+
     </section>
 
 
-    <!-- Contact Section -->
+    <!-- CONTACT SECTION -->
+
     <section id="contact" class="contact-section">
+
       <div class="contact-seciton-header">
         <h2 id="contact-section-header">Let's work together</h2>
         <p>Send me a message today</p>
       </div>
-      <div class="contact-links">
 
+      <div class="contact-links">
         <!-- Email -->
         <a id="email-link" class="btn contact-details" href="https://anthonynanfito.com/contact" target="_blank">
           <i class="fa-solid fa-envelope"></i> Email
@@ -199,9 +148,15 @@
         </a>
 
       </div>
+
     </section>
+
     <footer>
       <p>Thanks for stopping by.</p>
     </footer>
+
+    <script src="index.js" type="module"></script>
+
   </body>
+  
 </html>
