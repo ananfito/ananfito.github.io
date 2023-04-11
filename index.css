@@ -153,13 +153,40 @@ img {
   height: 100vh;
   background-color: var(--main-yellow);
   background-image: linear-gradient(120deg, var(--main-blue), var(--main-yellow));
+
 }
 
-.welcome-section > h1 {
+.welcome-section img {
+  border-radius: 50%;
+  width: 8em;
+  border: 3px solid var(--main-yellow);
+  margin: 2em auto;
+}
+
+@media (min-width: 62.5em) {
+  .welcome-section {
+    flex-direction: row;
+  }
+
+  .welcome-img {
+    margin-right: 5em;
+  }
+}
+
+
+.welcome-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.welcome-content > h1 {
   color: var(--main-white);
 }
 
-.welcome-section > p {
+.welcome-content > p {
   font-size: 3rem;
   font-weight: bold;
   font-style: italic;
