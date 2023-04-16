@@ -25,11 +25,18 @@ function renderProjects() {
 
     slicedProjectsArray.forEach ( function (project) {
         projectsHtml += `
-                <a class="project project-tile" id="${project.id}" href="${project.href}" target="_blank">
+            <div class="">
+                <a class="project project-tile" id="${project.id}" href="${project.liveLink}" target="_blank">
                     <img class="project-image" src="${project.img}" alt="${project.alt}">
-                    <p class="project-title">${project.title}</p>
                 </a>
-        
+                <div class="project project-info">
+                    <p class="project-title">${project.title}</p>
+                    <p class="project-links">
+                        <a class="project-links_link" href="${project.repoLink}" target="_blank"><i class="fa-brands fa-github"></i> Repo</a> 
+                        | 
+                        <a class="project-links_link" href="${project.liveLink}" target="_blank"><i class="fa-solid fa-link"></i> Demo</a></p>
+                </div>
+            </div>
         `
         document.getElementById('projects-grid').innerHTML = projectsHtml
     })
