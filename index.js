@@ -32,8 +32,7 @@ function renderProjects() {
                 <div class="project project-info">
                     <p class="project-title">${project.title}</p>
                     <p class="project-links">
-                        <a class="project-links_link" href="${project.repoLink}" target="_blank"><i class="fa-brands fa-github"></i> Repo</a> 
-                        | 
+                        <a class="project-links_link" href="${project.repoLink}" target="_blank"><i class="fa-brands fa-github"></i> Repo</a> | 
                         <a class="project-links_link" href="${project.liveLink}" target="_blank"><i class="fa-solid fa-link"></i> Demo</a></p>
                 </div>
             </div>

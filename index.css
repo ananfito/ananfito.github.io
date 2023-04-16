@@ -235,6 +235,14 @@ img {
   list-style: disc;
 }
 
+.about-info_link {
+  color: var(--main-blue)
+}
+
+.about-info_link:hover {
+  border-bottom: 1px solid var(--main-blue);
+}
+
 .certificate {
   background: var(--main-blue);
   border-radius: 2px;
