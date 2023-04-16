@@ -26,7 +26,7 @@ export const projectsArray = [
     {
         id: "password-generator",
         liveLink: "https://ananfito.github.io/password-generator/",
-        repoLink: "",
+        repoLink: "https://github.com/ananfito/password-generator",
         img: "./media/password-generator.png",
         alt: "a random password generator centered on a page with a dark theme and button to generator a 15 character password",
         title: "Password Generator"
@@ -34,7 +34,7 @@ export const projectsArray = [
     {
         id: "passenger-counter-app",
         liveLink: "https://ananfito.github.io/passenger-counter-app/",
-        repoLink: "https://github.com/ananfito/password-generator",
+        repoLink: "https://github.com/ananfito/passenger-counter-app",
         img: "./media/px-app.png",
         alt: "passenger counter app with 3 buttons; increment, decrease, and reset",
         title: "Passenger Counter App"
