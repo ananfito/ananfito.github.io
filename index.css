@@ -158,7 +158,7 @@ img {
   height: 100vh;
   background-color: var(--main-yellow);
   background-image: linear-gradient(120deg, var(--main-blue), var(--main-yellow));
-
+  margin-top: 7rem;
 }
 
 .welcome-section img {
@@ -171,6 +171,7 @@ img {
 @media (min-width: 62.5em) {
   .welcome-section {
     flex-direction: row;
+    margin-top: 0;
   }
 
   .welcome-img {
