@@ -1,5 +1,13 @@
 export const projectsArray = [
     {
+        id: "movie-watchlist",
+        liveLink: "https://movie-watchlist-cde6f9.netlify.app/",
+        repoLink: "https://github.com/ananfito/movie-watchlist",
+        img: "https://raw.githubusercontent.com/ananfito/movie-watchlist/main/screenshot-index.png",
+        alt: "Webpage for searching for movies and adding to a watchlist. From the top: header with movie posters, search bar, and the text 'start exploring'",
+        title: "Movie Watchlist"
+    },
+    {
         id: "restaurant-ordering-app",
         liveLink: "https://ananfito.github.io/restaurant-ordering-app/",
         repoLink: "https://github.com/ananfito/restaurant-ordering-app",
@@ -98,12 +106,12 @@ export const projectsArray = [
 ]
 
 /*
- {
-        id: "",
-        liveLink: "",
-        repoLink: "",
-        img: "",
-        alt: "",
-        title: ""
-    },
+{
+    id: "",
+    liveLink: "",
+    repoLink: "",
+    img: "",
+    alt: "",
+    title: ""
+},
  */
