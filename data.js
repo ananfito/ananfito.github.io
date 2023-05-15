@@ -1,3 +1,14 @@
+/*
+{
+    id: "",
+    liveLink: "",
+    repoLink: "",
+    img: "",
+    alt: "",
+    title: ""
+},
+ */
+
 export const projectsArray = [
     // {
     //     id: "movie-watchlist",
@@ -7,6 +18,14 @@ export const projectsArray = [
     //     alt: "Webpage for searching for movies and adding to a watchlist. From the top: header with movie posters, search bar, and the text 'start exploring'",
     //     title: "Movie Watchlist"
     // },
+    {
+        id: "personal-dashboard",
+        liveLink: "https://personal-dashboard-7b5ad0.netlify.app/",
+        repoLink: "https://github.com/ananfito/dashboard-clone",
+        img: "https://raw.githubusercontent.com/ananfito/dashboard-clone/master/screenshot-dashboard.png",
+        alt: "Personal dashboard displaying the time in the center, crypto price information in the upper left, weather information in the upper right, and background image credit in the lower left",
+        title: "Personal Dashboard"
+    },
     {
         id: "restaurant-ordering-app",
         liveLink: "https://ananfito.github.io/restaurant-ordering-app/",
@@ -104,14 +123,3 @@ export const projectsArray = [
         title: "Registration Form"
     }
 ]
-
-/*
-{
-    id: "",
-    liveLink: "",
-    repoLink: "",
-    img: "",
-    alt: "",
-    title: ""
-},
- */
