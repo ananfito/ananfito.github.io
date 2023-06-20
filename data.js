@@ -19,6 +19,30 @@ export const projectsArray = [
     //     title: "Movie Watchlist"
     // },
     {
+        id: "age-calc-app",
+        liveLink: "https://age-calc-app-aaf08a.netlify.app/",
+        repoLink: "https://github.com/ananfito/age-calc-app",
+        img: "https://raw.githubusercontent.com/ananfito/age-calc-app/master/screenshot_ageCalcApp_desktop.png",
+        alt: "Age calculator app with input for birth day, month, and year. results displayed as a vertical list, below the input. For example, 34 years, 7 months, 10 days",
+        title: "Age Calculator"
+    },
+    {
+        id: "advice-generator",
+        liveLink: "https://advice-generator-8be15d.netlify.app/",
+        repoLink: "https://github.com/ananfito/advice-generator",
+        img: "https://raw.githubusercontent.com/ananfito/advice-generator/main/screenshot_advice_desktop.png",
+        alt: "Large text centered on the screen with advice the 'If you don't want something to be public, don't post it on the Internet.' Below the text is a green button with a dice icon which will generate a new piece of advice.",
+        title: "Advice Generator"
+    },
+    {
+        id: "travel-journal",
+        liveLink: "https://travel-journal-5d0577.netlify.app/",
+        repoLink: "https://github.com/ananfito/travel-journal",
+        img: "https://raw.githubusercontent.com/ananfito/travel-journal/master/screenshot_travel-journal_desktop.png",
+        alt: "Webpage featuring a header at the top with a red background and white text that reads 'my travel journal.' Below the header is a list of travel destinations with an image on the left and destination information on the right.",
+        title: "Travel Journal"
+    },
+    {
         id: "personal-dashboard",
         liveLink: "https://personal-dashboard-7b5ad0.netlify.app/",
         repoLink: "https://github.com/ananfito/dashboard-clone",
