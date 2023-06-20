@@ -35,6 +35,14 @@ export const projectsArray = [
         title: "Advice Generator"
     },
     {
+        id: "rating-component",
+        liveLink: "https://rating-component-9fb0b9.netlify.app/",
+        repoLink: "https://github.com/ananfito/interactive-rating-component",
+        img: "https://raw.githubusercontent.com/ananfito/interactive-rating-component/master/screenshot_service-rating_desktop-main.png",
+        alt: "Service rating form with a star icon and the question 'How did we do?' at the top, below the question are circular buttons from 1 to 5 and at the bottom is an orange submit button.",
+        title: "Interactive Rating Component"
+    },
+    {
         id: "travel-journal",
         liveLink: "https://travel-journal-5d0577.netlify.app/",
         repoLink: "https://github.com/ananfito/travel-journal",
