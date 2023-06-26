@@ -1,0 +1,171 @@
+* {
+    margin: 0;
+}
+
+/* BASE STYLES */
+body {
+    font-size: 1rem;
+}
+
+
+/* HEADER */
+
+.header-section {
+    color: var(--main-white);
+    background-color: var(--main-blue);
+    padding: 1em 0 ;
+    border-bottom: 3px solid var(--main-yellow);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+
+.header-section__subtitle {
+    color: var(--main-white);
+    font-style: italic;
+    opacity: 60%;
+    font-size: 1.2rem;
+}
+
+
+/* RESUME */
+
+.container {
+    margin: 0 auto;
+    max-width: 700px;
+    padding: 0 1em;
+    margin-bottom: 2em;
+}
+
+section {
+    margin: 1.5em 0;
+}
+
+.resume-section__title {
+    margin-bottom: .5em;
+    color: var(--main-blue);
+}
+
+.position {
+    margin-bottom: 1.5em;
+}
+
+#actor {
+    break-after: page;
+}
+
+.print {
+    text-align: center;
+    margin: 3em 0;
+    
+}
+
+#print-button {
+    color: var(--main-gray);
+    font-size: 1.5rem;
+    border: none;
+    background: none;
+    cursor: pointer;
+}
+
+#print-button:hover {
+    color: var(--main-blue);
+}
+
+
+/* FOOTER */
+
+.contact {
+    color: var(--main-white);
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--main-blue);
+    border-top: 3px solid var(--main-yellow);
+    padding: 2em 0;
+    font-size: 1rem;
+    font-style: bold;
+}
+
+.contact__link, .contact__link:visited {
+    text-decoration: none;
+    color: var(--main-white);
+    padding-bottom: .2em;
+    margin-right: 1.5em;
+}
+
+.contact__link:hover {
+    border-bottom: 2px solid var(--main-white);
+    color: var(--main-yellow)
+}
+
+
+/* MEDIA QUERIES */
+
+/* larger screens */
+@media (min-width: 800px) {
+    body {
+        font-size: 1.25rem;
+    }
+
+    .header-section {
+        font-size: 1.5rem;
+    }
+
+    .header-section__subtitle {
+        font-size: 1.3rem;
+    }
+
+    .contact {
+        font-size: 1.2rem;
+    }
+}
+
+/* print */
+@media print {
+    * { 
+        color: black; 
+        margin: 0;
+    }
+
+    body { 
+        font-size: 11px;
+    }
+
+    header h1 {
+        color: var(--main-blue);
+    }
+
+    .header-section__subtitle {
+        opacity: 1;
+        color: var(--main-gray);
+    }
+
+    section {
+        margin-bottom: .5em;
+    }
+
+    .print {
+        display: none;
+    }
+
+    .contact {
+        border-top: none;
+        font-size: 10px;
+    }
+
+    #email-link::after {
+        content: ': ananfito@protonmail.com';
+    }
+
+    #portfolio-link::after {
+        content: ': ananfito.github.io';
+    }
+
+    #linkedin-link::after {
+        content: ': linkedin.com/in/anthonynanfito'
+    }
+}

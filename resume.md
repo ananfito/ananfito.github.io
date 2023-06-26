@@ -4,7 +4,7 @@
 
 ## Skills
 
-- Programming experience with HTML, CSS, JavaScript, React, Git, REST APIs, Python , R, SQL, and Tableau
+- Programming experience with HTML, CSS, JavaScript, React, Git, REST APIs, Python, R, SQL, and Tableau
 - High-level understanding of mathematics including algebra, geometry, calculus, and statistics
 - Ability to communicate complex ideas in educational, entertaining, and inspiring narratives
 - Extensive experience with project management and backward planning
@@ -40,7 +40,7 @@
 *December 2018 – November 2021*
 
 - Guided students through online lessons of English, mathematics, and science to improve their language proficiency and academic performance
-- Provided target feedback after each lesson to maximize student progress
+- Provided targeted feedback after each lesson to maximize student progress
 
 **Actor** — Mind Into Matter Improv Troupe, Chiang Mai, Thailand
 
@@ -58,7 +58,7 @@
 - *Program Description:* Elective course designed to help students gain the necessary skills to get into college and succeed beyond the admittance process. The curriculum included note-taking strategies and techniques, critical writing skills, SAT Prep, in-class tutorial groups with paid tutors, college application assistance, guest speakers, and college campus field trips
 - Created unit plans and daily lessons based on AVID Program Curriculum Guidelines for AVID Elective Class (Grades 9–12) to increase student success for college enrollment and beyond
 - Coordinated, planned, and hosted site-team meetings with AVID students and staff in order to assess and implement AVID program goals
-Managed AVID Program Budget ($30,000+) successfully to ensure payment of tutors and cost of field trips to college campuses
+- Managed AVID Program Budget ($30,000+) successfully to ensure payment of tutors and cost of field trips to college campuses
 - Sought out, interviewed, and trained highly-qualified candidates to perform the duties of in-class tutors
 - Collaborated with other AVID teachers  within the district to train teachers and tutors to ensure consistent implementation of AVID Curriculum Guidelines
 
@@ -74,7 +74,8 @@ Managed AVID Program Budget ($30,000+) successfully to ensure payment of tutors 
 ## Education
 - **Responsive Web Design Certificate** — freeCodeCamp.org, Received July 2022
 - **Google Data Analytics Certificate** — Coursera.org, Received May 2022
-Single-Subject Teaching Credential, Mathematics** — California State University, Chico, Received May 2013
+Single
+- **Subject Teaching Credential, Mathematics** — California State University, Chico, Received May 2013
 - **Bachelor of Science, Mathematics** — California State University, Chico, Received May 2012
 
 ## Accomplishments

@@ -1,13 +1,3 @@
-/* Style Guide for ananfito.github.io */
-
-:root {
-  --main-white: #fff;
-  --main-blue: #4276b6;
-  --main-yellow: #ffcc00;
-  --main-gray: #606c71;
-}
-
-
 /* BASE RESET */
 
 * {
@@ -28,34 +18,11 @@ html {
   scroll-behavior: smooth;
 }
 
-/* 1200px / 16px = 75em */
-@media (max-width: 75em) {
-  html {
-    font-size: 60%;
-  }
-}
-
-/* 980px / 16px = 61.25em */
-@media (max-width: 61.25em) {
-  html {
-    font-size: 58%;
-  }
-}
-
-/* 460px / 16px = 28.75em */
-@media (max-width: 28.75em) {
-  html {
-    font-size: 55%;
-  }
-}
-
 
 /* BASE STYLES */
+
 body {
-  font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
   font-size: 2rem;
-  line-height: 1.5;
-  color: var(--main-gray);
 }
 
 .about-info, .certificate-grid {
@@ -90,11 +57,6 @@ ul {
   list-style: none;
 }
 
-a {
-  text-decoration: none;
-  color: var(--main-blue);
-}
-
 img {
   display: block;
   width: 100%;
@@ -104,6 +66,7 @@ img {
 .project, .project-image, .certificate {
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
 }
+
 
 /* NAVBAR */
 
@@ -122,16 +85,6 @@ img {
 .nav-list {
   display: flex;
   margin-right: 2rem;
-}
-
-@media (max-width: 28.75em) {
-  .nav {
-    justify-content: center;
-  }
-
-  .nav-list {
-    margin: 0 1rem;
-  }
 }
 
 .nav-list a {
@@ -156,8 +109,7 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: var(--main-yellow);
-  background-image: linear-gradient(120deg, var(--main-blue), var(--main-yellow));
+  background-color: var(--main-blue);
   margin-top: 7rem;
 }
 
@@ -167,18 +119,6 @@ img {
   border: 3px solid var(--main-yellow);
   margin: 2em auto;
 }
-
-@media (min-width: 62.5em) {
-  .welcome-section {
-    flex-direction: row;
-    margin-top: 0;
-  }
-
-  .welcome-img {
-    margin-right: 5em;
-  }
-}
-
 
 .welcome-content {
   display: flex;
@@ -236,14 +176,6 @@ img {
   list-style: disc;
 }
 
-.about-info_link {
-  color: var(--main-blue)
-}
-
-.about-info_link:hover {
-  border-bottom: 1px solid var(--main-blue);
-}
-
 .certificate {
   background: var(--main-blue);
   border-radius: 2px;
@@ -262,16 +194,6 @@ img {
   margin: 2em auto;
 }
 
-@media (max-width: 30.625em) {
-  .about-section {
-    padding: 6rem 1rem;
-  }
-
-  .certificate-grid {
-    grid-template-columns: 1fr;
-  }
-}
-
 .certificate-grid > a {
   color: var(--main-yellow);
 }
@@ -283,7 +205,6 @@ img {
 
 .certificate-image {
   height: 15em;
-  /* height: calc(100% - 6.8rem); */
   width: 100%;
   object-fit: cover;
 }
@@ -310,12 +231,6 @@ img {
   border-bottom: 0.2rem solid var(--main-gray);
 }
 
-@media (max-width: 28.75em) {
-  .projects-section-header {
-    font-size: 4rem;
-  }
-}
-
 .projects-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -324,16 +239,6 @@ img {
   max-width: 1280px;
   margin: 0 auto;
   margin-bottom: 6rem;
-}
-
-@media (max-width: 30.625em) {
-  .projects-section {
-    padding: 6rem 1rem;
-  }
-
-  .projects-grid {
-    grid-template-columns: 1fr;
-  }
 }
 
 .projects-grid {
@@ -353,7 +258,6 @@ img {
 
 .project-image {
   height: 15em;
-  /* height: calc(100% - 6.8rem); */
   width: 100%;
   object-fit:cover;
   border-top-left-radius: 2px;
@@ -391,13 +295,6 @@ img {
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
   font-size: 1.95rem;
-}
-
-@media (min-width: 600px) {
-  .btn-view-more { 
-    padding: 2rem 12rem;
-    font-size: 2rem;
-  }
 }
 
 .btn {
@@ -441,17 +338,10 @@ img {
 .contact-section p {
   color: var(--main-white);
   font-style: italic;
-
 }
 
 #contact-section-header {
   color: var(--main-white);
-}
-
-@media (max-width: 28.75em) {
-  .contact-section-header > h2 {
-    font-size: 4rem;
-  }
 }
 
 .contact-links {
@@ -498,9 +388,86 @@ footer i {
   vertical-align: middle;
 }
 
-@media (max-width: 28.75em) {
+
+/* MEDIA QUERIES */
+
+/* MAX-width */
+
+/* desktop */
+@media (max-width: 1200px) {
+  html {
+    font-size: 60%;
+  }
+}
+
+/* tablet/landscape */
+@media (max-width: 980px) {
+  html {
+    font-size: 58%;
+  }
+}
+/* mobile */
+@media (max-width: 460px) {
+  html {
+    font-size: 55%;
+  }
+
+  .nav {
+    justify-content: center;
+  }
+
+  .nav-list {
+    margin: 0 1rem;
+  }
+
+  .about-section {
+    padding: 6rem 1rem;
+  }
+
+  .certificate-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-section {
+    padding: 6rem 1rem;
+  }
+
+  .projects-grid {
+    grid-template-columns: 1fr;
+  }
+
+  .projects-section-header {
+    font-size: 4rem;
+  }
+
+  .contact-section-header > h2 {
+    font-size: 4rem;
+  }
+
   footer {
     flex-direction: column;
     text-align: center;
+  }
+}
+
+/* MIN-width */
+
+/* desktop */
+@media (min-width: 1000px) {
+  .welcome-section {
+    flex-direction: row;
+    margin-top: 0;
+  }
+
+  .welcome-img {
+    margin-right: 5em;
+  }
+}
+
+/* tablet/mobile */
+@media (min-width: 600px) {
+  .btn-view-more { 
+    padding: 2rem 12rem;
+    font-size: 2rem;
   }
 }

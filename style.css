@@ -1,0 +1,25 @@
+:root {
+    --main-white: #fff;
+    --main-blue: #4276b6;
+    --main-yellow: #ffcc00;
+    --main-gray: #606c71;
+  }
+
+  body {
+    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+    line-height: 1.5;
+    color: var(--main-gray);
+  }
+
+  a, .link, .link:visited {
+    text-decoration: none;
+  }
+
+  .link, .link:visited {
+    color: var(--main-blue);
+    border-bottom: 2px solid var(--main-yellow);
+  }
+
+  .link:hover {
+    border-bottom: 1px solid var(--main-blue);
+  }
