@@ -153,8 +153,14 @@ section {
     }
 
     .contact {
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+        margin: 0;
+        padding: 0;
         border-top: none;
         font-size: 10px;
+        justify-content: space-between;
     }
 
     #email-link::after {
