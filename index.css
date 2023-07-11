@@ -62,6 +62,10 @@ img {
   width: 100%;
 }
 
+.hidden {
+  display: none;
+}
+
 /* box shadow for certificates and project cards */
 .project, .project-image, .certificate {
   box-shadow: 1px 1px 12px rgba(0, 0, 0, 0.5);
@@ -305,10 +309,6 @@ img {
 
 .more-examples {
   margin-top: 3em;
-}
-
-.hidden {
-  display: none;
 }
 
 .more-examples > a {

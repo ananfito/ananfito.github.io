@@ -5,8 +5,8 @@ let slicedProjectsArray = []
 const viewMoreBtn = document.getElementById('btn-view-more')
 
 viewMoreBtn.addEventListener('click', function () {
-    if (numberOfProjects >= projectsArray.length) {
-        viewMoreBtn.style.display = "none"
+    if (numberOfProjects > projectsArray.length) {
+        viewMoreBtn.classList.toggle('hidden')
         document.getElementById('more-examples').classList.toggle('hidden') 
     } else {
         numberOfProjects += 6
