@@ -1,19 +1,21 @@
 import { projectsArray } from "./data.js";
 
-let numberOfProjects = 6
+let numberOfProjects = 9
 let slicedProjectsArray = []
-const viewMoreBtn = document.getElementById('btn-view-more')
 
-viewMoreBtn.addEventListener('click', function () {
-    if (numberOfProjects > projectsArray.length) {
-        viewMoreBtn.classList.toggle('hidden')
-        document.getElementById('more-examples').classList.toggle('hidden') 
-    } else {
-        numberOfProjects += 6
-        getProjectsHtml(numberOfProjects)
-        renderProjects()
-    }
-})
+// View more button currently removed
+// const viewMoreBtn = document.getElementById('btn-view-more')
+
+// viewMoreBtn.addEventListener('click', function () {
+//     if (numberOfProjects > projectsArray.length) {
+//         viewMoreBtn.classList.toggle('hidden')
+//         document.getElementById('more-examples').classList.toggle('hidden') 
+//     } else {
+//         numberOfProjects += 6
+//         getProjectsHtml(numberOfProjects)
+//         renderProjects()
+//     }
+// })
 
 function getProjectsHtml (n) {
     slicedProjectsArray = projectsArray.slice(0, n)
@@ -23,7 +25,7 @@ function getProjectsHtml (n) {
 function renderProjects() {
     let projectsHtml = ''
 
-    slicedProjectsArray.forEach ( function (project) {
+    slicedProjectsArray.forEach ( project => {
         projectsHtml += `
             <div class="">
                 <a class="project project-tile" id="${project.id}" href="${project.liveLink}" target="_blank">

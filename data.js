@@ -10,14 +10,7 @@
  */
 
 export const projectsArray = [
-    // {
-    //     id: "movie-watchlist",
-    //     liveLink: "https://movie-watchlist-cde6f9.netlify.app/",
-    //     repoLink: "https://github.com/ananfito/movie-watchlist",
-    //     img: "https://raw.githubusercontent.com/ananfito/movie-watchlist/main/screenshot-index.png",
-    //     alt: "Webpage for searching for movies and adding to a watchlist. From the top: header with movie posters, search bar, and the text 'start exploring'",
-    //     title: "Movie Watchlist"
-    // },
+    // Top 6 Best Projects:
     {
         id: "age-calc-app",
         liveLink: "https://age-calc-app-aaf08a.netlify.app/",
@@ -66,6 +59,8 @@ export const projectsArray = [
         alt: "a webpage for a fictional plant-based restaurant called Tony's Bistro featuring a hero image at the top with a plate of burgers and three menu items: pizza, hamburger, beer",
         title: "Restaurant Ordering App"
     },
+
+    // Other Projects (not currently displayed on page):
     {
         id: "mathemaquizzo",
         liveLink: "https://ananfito.github.io/mathemaquizzo/",
@@ -155,3 +150,16 @@ export const projectsArray = [
         title: "Registration Form"
     }
 ]
+
+/*
+Not ready to show case: 
+{
+    id: "movie-watchlist",
+    liveLink: "https://movie-watchlist-cde6f9.netlify.app/",
+    repoLink: "https://github.com/ananfito/movie-watchlist",
+    img: "https://raw.githubusercontent.com/ananfito/movie-watchlist/main/screenshot-index.png",
+    alt: "Webpage for searching for movies and adding to a watchlist. From the top: header with movie posters, search bar, and the text 'start exploring'",
+    title: "Movie Watchlist"
+},
+
+*/
