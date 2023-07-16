@@ -21,5 +21,5 @@
   }
 
   .link:hover {
-    border-bottom: 1px solid var(--main-blue);
+    border-bottom: 2px solid var(--main-blue);
   }
