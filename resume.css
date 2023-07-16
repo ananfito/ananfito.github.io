@@ -7,6 +7,15 @@ body {
     font-size: 1rem;
 }
 
+code {
+    background-color: rgba(167, 167, 167, 0.348);
+    color: var(--main-blue);
+    border-radius: 5px;
+    padding: .1rem .2rem;
+    font-size: .9rem;
+    font-weight: 600;
+}
+
 
 /* HEADER */
 
@@ -48,12 +57,15 @@ section {
     color: var(--main-blue);
 }
 
-.position {
+.job-position {
     margin-bottom: 1.5em;
 }
 
-#actor {
-    break-after: page;
+#references {
+    text-align: center;
+    font-size: 1rem;
+    font-style: italic;
+    margin: 1.75em auto;
 }
 
 .print {
@@ -135,6 +147,14 @@ section {
         font-size: 11px;
     }
 
+    code {
+        font-size: .6rem;
+    }
+
+    .link {
+        border-bottom: 1.5px solid var(--main-yellow);
+    }
+
     header h1 {
         color: var(--main-blue);
     }
@@ -146,6 +166,10 @@ section {
 
     section {
         margin-bottom: .5em;
+    }
+
+    #references {
+        font-size: 9px;
     }
 
     .print {
