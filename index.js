@@ -1,6 +1,6 @@
 import { projectsArray } from "./data.js";
 
-let numberOfProjects = 9
+let numberOfProjects = 6
 let slicedProjectsArray = []
 
 // View more button currently removed

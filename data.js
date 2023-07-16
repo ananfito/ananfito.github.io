@@ -10,7 +10,46 @@
  */
 
 export const projectsArray = [
-    // Top 6 Best Projects:
+    {
+        id: "tenzies-clone",
+        liveLink: "https://tenzies-clone.netlify.app",
+        repoLink: "https://github.com/ananfito/tenzies-clone",
+        img: "https://raw.githubusercontent.com/ananfito/tenzies-clone/main/screenshot_tenzies_desktop.png",
+        alt: "Game title and instructions at the top. In the middle, ten dice laid out in two rows of five. Underneath the dice, the game stats: number of rolls, game time, and best time.",
+        title: "Tenzies Dice Game"
+    },
+    {
+        id: "restaurant-ordering-app",
+        liveLink: "https://ananfito.github.io/restaurant-ordering-app/",
+        repoLink: "https://github.com/ananfito/restaurant-ordering-app",
+        img: "./media/screenshot_desktop_restaurant-ordering-app.png",
+        alt: "a webpage for a fictional plant-based restaurant called Tony's Bistro featuring a hero image at the top with a plate of burgers and three menu items: pizza, hamburger, beer",
+        title: "Restaurant Ordering App"
+    },
+    {
+        id: "sign-up-form",
+        liveLink: "https://incredible-pegasus-1b4484.netlify.app/",
+        repoLink: "https://github.com/ananfito/sign-up-form",
+        img: "https://raw.githubusercontent.com/ananfito/sign-up-form/master/screenshot_sign-up-form_desktop.png",
+        alt: "Sign-up form for coding course asking for first name, last name, email address, and password",
+        title: "Sign-up Form"
+    },
+    {
+        id: "personal-dashboard",
+        liveLink: "https://personal-dashboard-7b5ad0.netlify.app/",
+        repoLink: "https://github.com/ananfito/dashboard-clone",
+        img: "https://raw.githubusercontent.com/ananfito/dashboard-clone/master/screenshot-dashboard.png",
+        alt: "Personal dashboard displaying the time in the center, crypto price information in the upper left, weather information in the upper right, and background image credit in the lower left",
+        title: "Personal Dashboard"
+    },
+    {
+        id: "rating-component",
+        liveLink: "https://rating-component-9fb0b9.netlify.app/",
+        repoLink: "https://github.com/ananfito/interactive-rating-component",
+        img: "https://raw.githubusercontent.com/ananfito/interactive-rating-component/master/screenshot_service-rating_desktop-main.png",
+        alt: "Service rating form with a star icon and the question 'How did we do?' at the top, below the question are circular buttons from 1 to 5 and at the bottom is an orange submit button.",
+        title: "Interactive Rating Component"
+    },
     {
         id: "age-calc-app",
         liveLink: "https://age-calc-app-aaf08a.netlify.app/",
@@ -28,13 +67,23 @@ export const projectsArray = [
         title: "Advice Generator"
     },
     {
-        id: "rating-component",
-        liveLink: "https://rating-component-9fb0b9.netlify.app/",
-        repoLink: "https://github.com/ananfito/interactive-rating-component",
-        img: "https://raw.githubusercontent.com/ananfito/interactive-rating-component/master/screenshot_service-rating_desktop-main.png",
-        alt: "Service rating form with a star icon and the question 'How did we do?' at the top, below the question are circular buttons from 1 to 5 and at the bottom is an orange submit button.",
-        title: "Interactive Rating Component"
+        id: "password-generator",
+        liveLink: "https://ananfito.github.io/password-generator/",
+        repoLink: "https://github.com/ananfito/password-generator",
+        img: "./media/password-generator.png",
+        alt: "a random password generator centered on a page with a dark theme and button to generator a 15 character password",
+        title: "Password Generator"
     },
+    {
+        id: "unit-converter",
+        liveLink: "https://ananfito.github.io/unit-converter/",
+        repoLink: "https://github.com/ananfito/unit-converter",
+        img: "./media/screenshot_unit-converter.png",
+        alt: "A metric/imperial unit converter with an input for a generic number at the top and a button underneath to convert the inputted units. The results are displayed in a list containing length, volume, and mass.",
+        title: "unit-converter"
+    },
+
+    // Other Projects (not currently displayed on page):
     {
         id: "travel-journal",
         liveLink: "https://travel-journal-5d0577.netlify.app/",
@@ -43,24 +92,6 @@ export const projectsArray = [
         alt: "Webpage featuring a header at the top with a red background and white text that reads 'my travel journal.' Below the header is a list of travel destinations with an image on the left and destination information on the right.",
         title: "Travel Journal"
     },
-    {
-        id: "personal-dashboard",
-        liveLink: "https://personal-dashboard-7b5ad0.netlify.app/",
-        repoLink: "https://github.com/ananfito/dashboard-clone",
-        img: "https://raw.githubusercontent.com/ananfito/dashboard-clone/master/screenshot-dashboard.png",
-        alt: "Personal dashboard displaying the time in the center, crypto price information in the upper left, weather information in the upper right, and background image credit in the lower left",
-        title: "Personal Dashboard"
-    },
-    {
-        id: "restaurant-ordering-app",
-        liveLink: "https://ananfito.github.io/restaurant-ordering-app/",
-        repoLink: "https://github.com/ananfito/restaurant-ordering-app",
-        img: "./media/screenshot_desktop_restaurant-ordering-app.png",
-        alt: "a webpage for a fictional plant-based restaurant called Tony's Bistro featuring a hero image at the top with a plate of burgers and three menu items: pizza, hamburger, beer",
-        title: "Restaurant Ordering App"
-    },
-
-    // Other Projects (not currently displayed on page):
     {
         id: "mathemaquizzo",
         liveLink: "https://ananfito.github.io/mathemaquizzo/",
@@ -76,14 +107,6 @@ export const projectsArray = [
         img: "./media/screenshot_desktop_learning-journal-index.png",
         alt: "the desktop version of blog website with a navbar, hero image, and grid of blog posts",
         title: "Learning Journal (Blog)"
-    },
-    {
-        id: "password-generator",
-        liveLink: "https://ananfito.github.io/password-generator/",
-        repoLink: "https://github.com/ananfito/password-generator",
-        img: "./media/password-generator.png",
-        alt: "a random password generator centered on a page with a dark theme and button to generator a 15 character password",
-        title: "Password Generator"
     },
     {
         id: "passenger-counter-app",
@@ -118,14 +141,6 @@ export const projectsArray = [
         title: "Basketball Scoreboard"
     },
     {
-        id: "unit-converter",
-        liveLink: "https://ananfito.github.io/unit-converter/",
-        repoLink: "https://github.com/ananfito/unit-converter",
-        img: "./media/screenshot_unit-converter.png",
-        alt: "A metric/imperial unit converter with an input for a generic number at the top and a button underneath to convert the inputted units. The results are displayed in a list containing length, volume, and mass.",
-        title: "unit-converter"
-    },
-    {
         id: "tetris-app",
         liveLink: "https://ananfito.github.io/basic-tetris/",
         repoLink: "https://github.com/ananfito/basic-tetris",
@@ -150,16 +165,3 @@ export const projectsArray = [
         title: "Registration Form"
     }
 ]
-
-/*
-Not ready to show case: 
-{
-    id: "movie-watchlist",
-    liveLink: "https://movie-watchlist-cde6f9.netlify.app/",
-    repoLink: "https://github.com/ananfito/movie-watchlist",
-    img: "https://raw.githubusercontent.com/ananfito/movie-watchlist/main/screenshot-index.png",
-    alt: "Webpage for searching for movies and adding to a watchlist. From the top: header with movie posters, search bar, and the text 'start exploring'",
-    title: "Movie Watchlist"
-},
-
-*/
