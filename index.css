@@ -46,15 +46,12 @@ h2 {
 }
 
 h3 {
+  font-size: 3.5rem;
   color: var(--main-blue);
 }
 
 p {
   margin: 1em auto;
-}
-
-ul {
-  list-style: none;
 }
 
 img {
@@ -89,6 +86,7 @@ img {
 .nav-list {
   display: flex;
   margin-right: 2rem;
+  list-style: none;
 }
 
 .nav-list a {
@@ -149,7 +147,7 @@ img {
 
 .about-section {
   display: block;
-  margin: 5rem auto 3rem auto;
+  margin: 5rem auto 6rem auto;
   padding: 1rem 0.5rem 1rem 0.5rem;
   line-height: 1.6;
   justify-content: space-evenly;
@@ -164,8 +162,7 @@ img {
 
 .about-info {
   max-width: 1080px;
-  margin: 0 auto;
-
+  margin: 0 auto 4em;
 }
 
 .skills-list {
@@ -224,15 +221,22 @@ img {
 
 .projects-section {
   text-align: center;
-  padding: 10rem 2rem 5rem;
+  margin: 5rem auto 6rem auto;
+  padding: 1rem 0.5rem 1rem 0.5rem;
 }
 
-.projects-wrapper {  padding: 0 1em; }
+.projects-wrapper {  
+  padding: 0 1em; 
+}
 
-.projects-section-header {
+.projects-section-header, .certficate-header {
   max-width: 640px;
   margin: 0 auto 6rem auto;
   border-bottom: 0.2rem solid var(--main-gray);
+}
+
+.projects-section-subheader {
+  margin-bottom: 3rem;
 }
 
 .projects-grid {
@@ -246,12 +250,12 @@ img {
 }
 
 .projects-grid {
-  color: var(--main-yellow)
+  color: var(--main-yellow);
+  margin: 2em auto 6em;
 }
 
 .projects-grid .project-links, a {
   color: var(--main-yellow);
-
 }
 
 .btn-view-more:hover {
@@ -313,8 +317,23 @@ img {
   border-radius: 2px;
 }
 
+.analytics-projects-wrapper {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  align-items: center;
+  margin: 4em auto 6em;
+}
+
+.analytics-projects-list {
+  list-style-type: disc;
+  text-align: left;
+  margin: 0 2em;
+  /* padding: 0 1em; */
+}
+
 .more-examples {
-  margin: 3em 0;
+  margin: 3em auto;
 
 }
 
@@ -334,7 +353,6 @@ img {
 
 .more-examples__link:hover {
   color: var(--main-blue);
-  /* border-bottom: 2px solid var(--main-blue); */
 }
 
 
