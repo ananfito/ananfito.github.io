@@ -318,18 +318,29 @@ img {
 }
 
 .analytics-projects-wrapper {
-  display: flex;
+  /* display: flex;
   flex-direction: column;
   justify-content: start;
-  align-items: center;
+  align-items: center; */
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+  grid-gap: 4rem;
   margin: 4em auto 6em;
+  max-width: 1280px;
 }
 
-.analytics-projects-list {
-  list-style-type: disc;
-  text-align: left;
-  margin: 0 2em;
-  /* padding: 0 1em; */
+.card {
+  /* margin: .5em; */
+  border: 1px solid var(--main-blue);
+  border-radius: 2px;
+  padding: 1em;
+  /* width: 21.875em; */
+  /* height: 10.9375em; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
 }
 
 .more-examples {
@@ -474,6 +485,10 @@ footer i {
 
   .projects-section-header {
     font-size: 4rem;
+  }
+
+  .analytics-projects-wrapper {
+    grid-template-columns: 1fr;
   }
 
   .contact-section-header > h2 {
