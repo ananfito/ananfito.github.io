@@ -9,7 +9,7 @@ body {
 
 code {
     background-color: rgba(167, 167, 167, 0.348);
-    color: var(--main-blue);
+    color: var(--main-brown);
     border-radius: 5px;
     padding: .1rem .2rem;
     font-size: .9rem;
@@ -21,7 +21,7 @@ code {
 
 .header-section {
     color: var(--main-white);
-    background-color: var(--main-blue);
+    background-color: var(--main-brown);
     padding: 1em 0 ;
     border-bottom: 3px solid var(--main-yellow);
     display: flex;
@@ -54,7 +54,7 @@ section {
 
 .resume-section__title {
     margin-bottom: .5em;
-    color: var(--main-blue);
+    color: var(--main-brown);
 }
 
 .job-position {
@@ -83,7 +83,7 @@ section {
 }
 
 #print-button:hover {
-    color: var(--main-blue);
+    color: var(--main-brown);
 }
 
 
@@ -95,7 +95,7 @@ section {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: var(--main-blue);
+    background-color: var(--main-brown);
     border-top: 3px solid var(--main-yellow);
     padding: 2em 0;
     font-size: 1rem;
@@ -156,7 +156,7 @@ section {
     }
 
     header h1 {
-        color: var(--main-blue);
+        color: var(--main-brown);
     }
 
     .header-section__subtitle {

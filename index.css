@@ -34,7 +34,7 @@ h2 {
   font-family: 'Raleway', sans-serif;
   font-weight: 700;
   text-align: center;
-  color: var(--main-blue);
+  color: var(--main-brown);
 }
 
 h1 {
@@ -47,7 +47,7 @@ h2 {
 
 h3 {
   font-size: 3.5rem;
-  color: var(--main-blue);
+  color: var(--main-brown);
 }
 
 p {
@@ -94,11 +94,12 @@ img {
   font-size: 2.2rem;
   font-weight: bold;
   padding: 2rem;
-  color: var(--main-blue)
+  color: var(--main-brown)
 }
 
 .nav-list a:hover {
-  background: var(--main-white);
+  color: var(--main-yellow);
+  background: var(--main-brown);
 }
 
 
@@ -111,7 +112,7 @@ img {
   align-items: center;
   width: 100%;
   height: 100vh;
-  background-color: var(--main-blue);
+  background-color: var(--main-brown);
   margin-top: 7rem;
 }
 
@@ -178,7 +179,7 @@ img {
 }
 
 .certificate {
-  background: var(--main-blue);
+  background: var(--main-brown);
   border-radius: 2px;
 }
 
@@ -201,7 +202,7 @@ img {
 
 .certificate-grid > a:hover {
   background: var(--main-yellow);
-  color: var(--main-blue);
+  color: var(--main-brown);
 }
 
 .certificate-image {
@@ -260,7 +261,7 @@ img {
 
 .btn-view-more:hover {
   background: var(--main-yellow);
-  color: var(--main-blue);
+  color: var(--main-brown);
   border-radius: 2px;
 }
 
@@ -273,7 +274,7 @@ img {
 }
 
 .project {
-  background: var(--main-blue);
+  background: var(--main-brown);
   border-bottom-left-radius: 2px;
   border-bottom-right-radius: 2px;
 }
@@ -304,7 +305,7 @@ img {
   padding: 1rem 4rem;
   color: var(--main-yellow);
   border: none;
-  background-color: var(--main-blue);
+  background-color: var(--main-brown);
   border-radius: 2px;
   box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.5);
   cursor: pointer;
@@ -331,7 +332,7 @@ img {
 
 .card {
   /* margin: .5em; */
-  border: 1px solid var(--main-blue);
+  border: 1px solid var(--main-brown);
   border-radius: 2px;
   padding: 1em;
   /* width: 21.875em; */
@@ -363,7 +364,7 @@ img {
 }
 
 .more-examples__link:hover {
-  color: var(--main-blue);
+  color: var(--main-brown);
 }
 
 
@@ -378,7 +379,7 @@ img {
   width: 100%;
   height: 100vh;
   padding: 0 2rem;
-  background: var(--main-blue);
+  background: var(--main-brown);
   color: var(--main-white);
 }
 
@@ -424,7 +425,7 @@ footer {
   padding: 2rem;
   background: var(--main-white);
   border-top: 4px solid var(--main-yellow);
-  color: var(--main-blue);
+  color: var(--main-brown);
 }
 
 footer > p {

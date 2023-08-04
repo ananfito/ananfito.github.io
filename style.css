@@ -1,25 +1,40 @@
 :root {
     --main-white: #fff;
-    --main-blue: #4276b6;
-    --main-yellow: #ffcc00;
+    --main-brown: rgb(171, 78, 41); /* formerly: --main-blue: #4276b6; */
+    --main-yellow: #FFFC0C;
+    --secondary-yellow: #E6AE2F;
     --main-gray: #606c71;
   }
 
-  body {
-    font-family: 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-    line-height: 1.5;
-    color: var(--main-gray);
-  }
+body {
+  font-family: 'Inter', 'Lato', 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  line-height: 1.5;
+  color: var(--main-gray);
+}
 
-  a, .link, .link:visited {
-    text-decoration: none;
-  }
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'Plus Jakarta Sans', 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Verdana, sans-serif;
+}
 
-  .link, .link:visited {
-    color: var(--main-blue);
-    border-bottom: 2px solid var(--main-yellow);
-  }
+a, .link, .link:visited {
+  text-decoration: none;
+}
 
-  .link:hover {
-    border-bottom: 2px solid var(--main-blue);
-  }
+.link, .link:visited {
+  color: var(--main-brown);
+  border-bottom: 2px solid var(--main-brown);
+}
+
+.link:hover {
+  border-bottom: 2px solid var(--secondary-yellow);
+}
+
+.header-link {
+  text-decoration: none;
+  color: inherit;
+  text-align: center;
+}
+
+.header-link:hover {
+  cursor: pointer;
+}
