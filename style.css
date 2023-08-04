@@ -1,9 +1,9 @@
 :root {
     --main-white: #fff;
-    --main-brown: rgb(171, 78, 41); /* formerly: --main-blue: #4276b6; */
-    --main-yellow: #FFFC0C;
-    --secondary-yellow: #E6AE2F;
-    --main-gray: #606c71;
+    --main-blue: #4276b6; 
+    --main-yellow: #FFcC00; /* bright yellow */
+    --secondary-yellow: #E6AE2F; /* subdued/golden yellow */
+    --main-gray: #505657;
   }
 
 body {
@@ -21,8 +21,8 @@ a, .link, .link:visited {
 }
 
 .link, .link:visited {
-  color: var(--main-brown);
-  border-bottom: 2px solid var(--main-brown);
+  color: var(--main-blue);
+  border-bottom: 2px solid var(--main-blue);
 }
 
 .link:hover {
