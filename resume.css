@@ -188,7 +188,7 @@ section {
     }
 
     #portfolio-link::after {
-        content: ': ananfito.github.io';
+        content: ': ananfito.dev';
     }
 
     #linkedin-link::after {
