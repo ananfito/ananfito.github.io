@@ -22,11 +22,10 @@ a, .link, .link:visited {
 
 .link, .link:visited {
   color: var(--main-blue);
-  border-bottom: 2px solid var(--main-blue);
 }
 
 .link:hover {
-  border-bottom: 2px solid var(--secondary-yellow);
+  border-bottom: 2px solid var(--main-blue);
 }
 
 .header-link {

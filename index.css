@@ -138,6 +138,11 @@ img {
   font-style: italic;
   color: var(--main-white);
   opacity: 0.8;
+  text-align: center;
+}
+
+.welcome-content > h1, .welcome-content > p {
+  padding: 0 1em;
 }
 
 
@@ -505,6 +510,14 @@ footer i {
 
   .welcome-img {
     margin-right: 5em;
+  }
+
+  .welcome-section {
+    padding: 0 2em;
+  }
+
+  .welcome-content > h1, .welcome-content > p {
+    padding: 0;
   }
 }
 
