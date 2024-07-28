@@ -1,21 +1,22 @@
 import { projectsArray } from "./data.js";
 
-let numberOfProjects = 6
+let numberOfProjects = 3
 let slicedProjectsArray = []
 
-// View more button currently removed
-// const viewMoreBtn = document.getElementById('btn-view-more')
+const viewMoreBtn = document.getElementById('btn-view-more')
 
-// viewMoreBtn.addEventListener('click', function () {
-//     if (numberOfProjects > projectsArray.length) {
-//         viewMoreBtn.classList.toggle('hidden')
-//         document.getElementById('more-examples').classList.toggle('hidden') 
-//     } else {
-//         numberOfProjects += 6
-//         getProjectsHtml(numberOfProjects)
-//         renderProjects()
-//     }
-// })
+viewMoreBtn.addEventListener('click', function () {
+    numberOfProjects += 3
+
+    // hide "view more" button when numberOfProjects goes beyond length of projects array
+    if (numberOfProjects >= projectsArray.length) {
+        viewMoreBtn.classList.toggle('hidden')
+        //document.getElementById('more-examples').classList.toggle('hidden') 
+    }
+
+    getProjectsHtml(numberOfProjects)
+    renderProjects()
+})
 
 function getProjectsHtml (n) {
     slicedProjectsArray = projectsArray.slice(0, n)
