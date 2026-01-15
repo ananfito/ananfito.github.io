@@ -133,7 +133,7 @@ html {
 }
 
 .certificate-image {
-  height: 15em;
+  height: 10em;
   width: 100%;
   object-fit: cover;
 }
@@ -266,6 +266,10 @@ html {
 
 .card p {
   font-style: italic;
+}
+
+.card_links {
+  margin: 1.5em;
 }
 
 .more-examples {

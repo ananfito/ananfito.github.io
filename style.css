@@ -4,6 +4,8 @@
     --main-yellow: #FFcC00; /* bright yellow */
     --secondary-yellow: #E6AE2F; /* subdued/golden yellow */
     --main-gray: #505657;
+    --main-gray-rgb: 31, 34, 34;
+
   }
 
 /* BASE STYLES */
@@ -35,8 +37,20 @@ h2 {
 }
 
 h3 {
-  font-size: 3.5rem;
+  font-size: 3.2rem;
   color: var(--main-blue);
+}
+
+h4 {
+  font-size: 2.5rem;
+}
+
+h5 {
+  font-size: 2rem;
+}
+
+h6 {
+  font-size: 1.7rem;
 }
 
 p {
@@ -62,6 +76,21 @@ a, .link, .link:visited {
 
 .link:hover {
   border-bottom: 2px solid var(--main-blue);
+}
+
+.codetag {
+  background-color: rgba(var(--main-gray-rgb), 0.2);
+  border-radius: .1cm;
+  padding: 2px 5px;
+  /* color: black; */
+  /* color: var(--main-white); */
+  font-family: 'Courier';
+}
+
+.question {
+  text-align: center;
+  font-weight: bold;
+
 }
 
 /* NAVBAR */
