@@ -1,0 +1,121 @@
+<!-- TEMPLATE FILE FOR PROJECTS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/7b924d2756.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <title>Anthony Nanfito's Portfolio</title>
+    <link rel="icon" href="./media/ProfilePic_Square.jpg" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+
+        <!-- About -->
+        <li>
+          <a href="index.html" id="about-link">Home</a>
+        </li>
+
+        <!-- Projects -->
+        <li>
+          <a href="index.html#projects" id="projects-link">Projects</a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a href="index.html#contact" id="contact-link">Contact</a>
+        </li>
+
+        <!-- Blog -->
+        <li>
+          <a href="https://blog.ananfito.dev/" target="_blank" id="blog-link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT SECTION -->
+
+    <section id="" class="container">
+
+        <h2 class="section-header">Trends from Amazon Bestsellers</h2>
+        <h3>Introduction</h3>
+        <p>The following is a case study investigating bestelling books on Amazon between the years 2009 and 2019. We will look at how authors/publishers can use the trends in this data to set long-term goals.</p>
+        
+        <h3>Summary</h3>
+        <p>It's no secret that Amazon has become a behemoth of an organization, but it started out by starting selling books. And by the end of the time period for this data set (2019), Amazon enjoys a 50% share of all book distribution and an eBook market share around 67% (<a href="https://justpublishingadvice.com/why-do-amazon-sell-more-ebooks-than-other-retailers/" target="_blank" class="link">source</a>). For writers and publishers around the world, it's hard to ignore Amazon's success and it seems unwise to consider not publishing to the platform.</p>
+        <p>This case study will investgiate the top 50 bestselling authors and books over the ten year period from 2009-2019. The goal is to provide insights so writers and publishers can make data-informed decisions about long-term goals.</p>
+
+        <h4>Guiding Questions</h4>
+        <p>For this case study, our main guiding question is:</p>
+        <p class="question">How can trends from the Top 50 Amazon Bestsellers over a 10-year period inform long-term goals for authors and publishers?</p>
+        <p>To address this question, we will be exploring the answering the following sub questions:</p>
+        <div class="list" id="">
+            <ul>
+                <li>What author(s) published the most between 2009-2019?</li>
+                <li>What percentage of books were fiction vs. non-fiction?</li>
+                <li>What book appears the most between 2009-2019?</li>
+            </ul>
+        </div>
+
+        <h4>Tools and Techniques</h4>
+        <p>This analysis made use of the following tools and techniques:</p>
+        <div class="list" id="">
+            <ul>
+                <li>Python programming language and libraries; <span class="codetag">pandas</span>, <span class="codetag">seaborn</span>, <span class="codetag">numpy</span>, and <span class="codetag">matplotlib</span></li>
+                <li>Data transformations: extraction, visualizations, summary statistics</li>
+                <li>Data inspection: removal of duplicate/unnessary data, change format/datatype, verify unique values</li>
+            </ul>
+        </div>
+
+        <h4>Recommendations</h4>
+        <p>The analysis yielded the following key observations:</p>
+        <div class="list" id="">
+            <ul>
+                <li>Most authors (75%) only published twice during this 10-year period</li>
+                <li>A majority (73%) of the expensive books (books priced greater than 16 USD) were non-fiction</li>
+                <li>Most books (75%) published during this 10-year period were under 16 USD and 50% of them were priced between 7 USD and 16 USD</li>
+            </ul>
+        </div>
+        <p>These observations led to the following recommendations outlined below.</p>
+
+        <h5>Focus on high quality content</h5>
+        <p>Most authors (75%) only published twice during this 10-year period. It takes a lot to publish a book -- drafting, writing, editing, and revising. This would seem to indicate that for those authors who made it into the Top 50 bestsellers list their book was most likely well-received because it was well-written.</p>
+        <p>For writers/publishers, seeking to make it on these lists in the next ten years this means focusing on writing less and writing better. By slowing down to focus on higher quality content it increases your chance of your book being received well and popular.</p>
+
+        <h5>For higher priced books, focus on non-fiction</h5>
+        <p>A majority (73%) of the expensive books (books priced greater than 16 USD) were non-fiction. Being that non-fiction books generally require more research and effort to write, it make sense that they would be priced higher to reflect that. For authors/publishers seeking earn more, they might consider shifting their output to non-fiction books. This could be more lucrative if combined with other sources of incomes such speaking engagements, workshops, courses, etc.</p>
+
+        <h5>Set price between 7 and 16 USD</h5>
+        <p>This is likely to change due to inflation and increase production costs, but it should be noted that most books (75%) published during this 10-year period were under 16 USD and 50% of them were priced in this range. In other words, when choosing the book price ensure that it is within the current range of book prices -- not too high, but not too low.</p>
+
+
+        <h3>Links</h3>
+        <div class="list" id="">
+            <ul>
+                <li><a href="https://ananfito.github.io/case-study_amazon-bestsellers/AmazonBestsellers.html" class="link" target="_blank"> Case Study</a></li>
+                <li><a href="https://github.com/ananfito/case-study_amazon-bestsellers" class="link" target="_blank">Code Repository</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+      <p>Thanks for stopping by.</p>
+    </footer>
+  </body>
+</html>
