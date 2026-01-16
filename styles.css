@@ -227,21 +227,6 @@ a, .link, .link:visited {
 
 /* ABOUT SECTION */
 
-.about-section {
-  display: block;
-  margin: 10rem auto 6rem auto;
-  padding: 1rem 0.5rem 1rem 0.5rem;
-  line-height: 1.6;
-  justify-content: space-evenly;
-  max-width: 850px;
-}
-
-.about-section-header {
-  max-width: 640px;
-  margin: 0 auto 6rem auto;
-  border-bottom: 0.2rem solid var(--main-gray);
-}
-
 .skills-list {
   margin: 10px auto 10px auto;
 }
