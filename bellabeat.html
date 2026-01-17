@@ -1,0 +1,126 @@
+<!-- TEMPLATE FILE FOR PROJECTS -->
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/7b924d2756.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <title>Anthony Nanfito's Portfolio</title>
+    <link rel="icon" href="./media/ProfilePic_Square.jpg" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+
+        <!-- About -->
+        <li>
+          <a href="index.html" id="about-link">Home</a>
+        </li>
+
+        <!-- Projects -->
+        <li>
+          <a href="index.html#projects" id="projects-link">Projects</a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a href="index.html#contact" id="contact-link">Contact</a>
+        </li>
+
+        <!-- Blog -->
+        <li>
+          <a href="https://blog.ananfito.dev/" target="_blank" id="blog-link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT SECTION -->
+
+    <section id="" class="container">
+
+        <h2 class="section-header">How Can a Wellness Technology Company Play It Smart?</h2>
+        <h3>Introduction</h3>
+        <p>This project is the capstone assignment for the <a href="https://www.coursera.org/professional-certificates/google-data-analytics" target="_blank" class="link">Google Data Analytics Professional Certificate</a> program. The program prepares participants for a career in data analytics with training focused on key analytical skills (data cleaning, analysis, and visualization) and tools (Excel, SQL, R Programming, Tableau).</p>
+        <p>We'll be investigating data sets of FitBit usage to make high-level marketing recommendations for Bellabeat---a high-tech company that manufactures health-focused smart products.</p>
+        
+        <h3>Summary</h3>
+
+        <p><a href="https://bellabeat.com/" target="_blank" class="link">Bellabeat</a> was founded in 2013 and has grown to become a tech-driven wellness company for women. Since 2016, they have opened offices around the globe and launched multiple products. Their apps and devices collect data on activity, sleep, stress, and reproductive health, allowing Bellabeat to empower women with knowledge about their own health and habits.</p>
+        <p>Bellabeat also offers a subscription-based membership program for users. Membership gives users 24/7 access to fully personalized guidance on nutrition, activity, sleep, health and beauty, and mindfulness based on their lifestyle and goals. There products include:</p>
+        <div class="list" id="">
+            <ul>
+                <li><strong>Bellabeat app</strong>: The Bellabeat app provides users with health data related to their activity, sleep, stress, menstrual cycle, and mindfulness habits. This data can help users better understand their current habits and make healthy decisions. The Bellabeat app connects to their line of smart wellness products.</li>
+                <li><strong>Leaf</strong>: Bellabeat's classic wellness tracker can be worn as a bracelet, necklace, or clip. The Leaf tracker connects to the Bellabeat app to track activity, sleep, and stress.</li>
+                <li><strong>Time</strong>: This wellness watch combines the timeless look of a classic timepiece with smart technology to track user activity, sleep, and stress. The Time watch connects to the Bellabeat app to provide you with insights into your daily wellness.</li>
+                <li><strong>Spring</strong>: This is a water bottle that tracks daily water intake using smart technology to ensure that you are appropriately hydrated throughout the day. The Spring bottle connects to the Bellabeat app to track your hydration levels.</li>
+            </ul>
+        </div>
+
+        <h4>Guiding Questions</h4>
+        <p>For this case study, our main guiding questions are:</p>
+        <div class="list" id="">
+            <ul>
+                <li>What are some trends in smart device usage?</li>
+                <li>How could these trends apply to Bellabeat customers?</li>
+                <li>How could these trends help influence Bellabeat marketing strategy?</li>
+            </ul>
+        </div>
+
+        <h4>Tools and Techniques</h4>
+        <p>This analysis made use of the following tools and techniques:</p>
+        <div class="list" id="">
+            <ul>
+                <li>R programming language and libraries; <span class="codetag">ggplot2</span>, <span class="codetag">tibble</span>, <span class="codetag">tidyr</span>, <span class="codetag">readr</span>, <span class="codetag">purrr</span>, <span class="codetag">dplyr</span>, <span class="codetag">stringr</span>, <span class="codetag">lubridate</span> and <span class="codetag">forcats</span></li>
+                <li>Data transformations: joins, visualizations, summary statistics</li>
+                <li>Data inspection: removal of duplicate/unnessary data, change format/datatype, verify unique values</li>
+            </ul>
+        </div>
+
+        <h4>Recommendations</h4>
+        <p>Based on the analysis, here are the recommendations:</p>
+        <div class="list" id="">
+            <ul>
+                <li>Double the Points Earned on Sundays</li>
+                <li>Reminder Notifcations Following Active Days</li>
+                <li>Encourage Rest Days</li>
+            </ul>
+        </div>
+        <h5>Double the Points Earned on Sundays</h5>
+        <p>Based on the observations from the data, the largest trend that stands out is the increase in activity on Tuesday, Wednesday, and Thursday. Participants were most active on these days (both in terms of step count and calories burned). These also coincided with the days participants got the most sleep and spent the most time in bed. Further, we also know that Sunday is the least active day.</p>
+        <p>In order to help Bellabeat customers reach their wellness goals, it is recommended that the product team implement the ablity to add reminders when customers have lower level of activities. In particular, if we know that Sunday (and indeed Friday and Satury to some degree) is the least active day the product team could add the ability for customers to increase their wellness score by more points when they are active on Sunday. For example, perhaps activities on Sundays count for 1.5 times or 2 times the regular amount of points awarded when calculating the Wellness Score. This is intended to incentivize customers to be more active on this day.</p>
+
+        <h5>Reminder Notifcations Following Active Days</h5>
+        <p>We know that Tuesday, Wednesday, and Thursday are the most active days. The product team could implement notifications on the following days. These notifications could include reminders about how active the individual has been the past day (or previous days) and offer encouragement to keep staying active.</p>
+
+        <h5>Encourage Rest Days</h5>
+        <p>The Wellness Score in the Bellabeat app is a number calculated on a number of different factors, including activity. We know from the data that Sunday is the least active day. Perhaps, instead of encouraging individuals to be active on this day, rest should be encourage. Bellabeat takes a hollistic approach to wellness and while it is important to be active when achieiving fitness goals rest is also an important factor. In this case, perhaps the activities on Sundays (or on another rest day specified by the customer) would count for silently less so that the overall Wellness Score isn't adversely affected.</p>
+
+        <h3>Links</h3>
+        <div class="list" id="">
+            <ul>
+                <li><a href="https://ananfito.github.io/case-study_bellabeat/bellabeat.html" class="link" target="_blank">Case Study</a></li>
+                <li><a href="https://github.com/ananfito/case-study_bellabeat/tree/main" class="link" target="_blank">Code Repository</a></li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+      <p>Thanks for stopping by.</p>
+    </footer>
+  </body>
+</html>
