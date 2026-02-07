@@ -199,7 +199,7 @@ a, .link, .link:visited {
   margin-top: 7rem;
 }
 
-.welcome-section img {
+.welcome-section .profile-img {
   border-radius: 50%;
   width: 8em;
   border: 3px solid var(--main-yellow);
