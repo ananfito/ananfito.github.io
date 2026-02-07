@@ -78,12 +78,8 @@ p {
   margin: 1em auto;
 }
 
-img {
-  display: block;
-  width: 100%;
-}
-
 .image {
+  display: block;
   width: 60%;
   margin: 2em auto;
 }
