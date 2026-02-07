@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <!-- Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+    
+    <!-- FontAwesome Link -->
+    <script src="https://kit.fontawesome.com/7b924d2756.js" crossorigin="anonymous"></script>
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Plus+Jakarta+Sans:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    
+    <title>Anthony Nanfito's Portfolio</title>
+    <link rel="icon" href="./media/ProfilePic_Square.jpg" />
+  </head>
+  <body>
+
+    <!-- NAVBAR -->
+
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+
+        <!-- About -->
+        <li>
+          <a href="index.html" id="about-link">Home</a>
+        </li>
+
+        <!-- Projects -->
+        <li>
+          <a href="index.html#projects" id="projects-link">Projects</a>
+        </li>
+
+        <!-- Contact -->
+        <li>
+          <a href="index.html#contact" id="contact-link">Contact</a>
+        </li>
+
+        <!-- Blog -->
+        <li>
+          <a href="https://blog.ananfito.dev/" target="_blank" id="blog-link">Blog</a>
+        </li>
+      </ul>
+    </nav>
+
+    <!-- CONTENT SECTION -->
+
+    <section id="" class="container">
+      <h2 class="section-header">SQL Data Modeling + BI Reporting Pipeline</h2>
+      <h3>Introduction</h3>
+      <p>This SQL project was a group project from my masters program in Business Analytics. The goal of this project was to design a relational database for a property management scenario including leases, apartments, maintenance, staff, and clients. Then we were tasked with using this databse to create business-facing queries to answer operational questions and create BI-friendly summary tables.</p>
+      
+      <h3>The Build</h3>
+      <p>The build for this project involved:</p>
+      <div class="list" id="">
+          <ul>
+            <li>Entity relational diagram (ERD) and relational schema to plan database structure</li>
+            <li>Data definiton language (DDL) to create core entities (e.g., APARTMENT, LEASE, MAINTENANCEREQUEST) with referential integrity</li>
+            <li>Data maniuplation language (DML) to insert and update entities</li>
+            <li>Data query language (DQL) to answer stakeholder questions (occupancy, upcoming lease experiations, pending requests, etc.)</li>
+          </ul>
+      </div>
+
+      <h3>Examples: Dashboard-ready outputs</h3>
+      <h4>Lease expirations by building/month for proactive renewals and capacity planning</h4>
+      <img src="./media/lease-expirations.png" alt="lease expirations table">
+      
+      <h4>Net profit by month (revenue - payroll) for leadership KPI tracking</h4>
+      <img src="./media/net-profit.png" alt="net profit table">
+
+      <h4>Tools and Techniques</h4>
+      <p>This analysis made use of the following tools and techniques:</p>
+      <div class="list" id="">
+          <ul>
+            <li>Joins</li>
+            <li>Group by</li>
+            <li>Date logic</li>
+            <li>Summary tables</li>
+            <li>Data modeling (ERD, normalization, star schema)</li>
+            <li>ETL reasoning</li>
+            <li>Metrics design</li>
+          </ul>
+      </div>
+
+      <h3>Links</h3>
+      <div class="list" id="">
+          <ul>
+            <li><a href="https://github.com/ananfito/sqlproject/tree/main/sql" class="link" target="_blank">SQL Code</a></li>
+            <li><a href="https://github.com/ananfito/sqlproject/tree/main/schema" class="link" target="_blank">Schema</a></li>
+          </ul>
+      </div>
+    </section>
+
+    <footer>
+      <p>Thanks for stopping by.</p>
+    </footer>
+  </body>
+</html>
